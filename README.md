@@ -5,6 +5,6 @@ UC Davis Fall 2024 Project
 Victor Borup
 Rafael Diaz Cruz
 Ivan Eser
-Victor Huang
+Yuzhang Huang
 
 Project: Database Security
