@@ -28,7 +28,12 @@ class Test:
                     print("Insert failed")
         print("Finished")
 
+    def test(self):
+        print('Testing test route')
+        print(requests.post("http://localhost:5000/test", json={"text" : " fuck you " }).status_code )
+        print("Got here")
+
 
 if __name__ == '__main__':
     test_class = Test()
-    test_class.testWithNumbers()
+    test_class.test()

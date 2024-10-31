@@ -8,3 +8,7 @@ Ivan Eser
 Yuzhang Huang
 
 Project: Database Security
+
+
+MongoDB install instructions (ubuntu):
+https://www.mongodb.com/docs/upcoming/tutorial/install-mongodb-on-ubuntu/
