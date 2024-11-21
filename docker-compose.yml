@@ -2,10 +2,12 @@ version: '3.1'
 services:
   database:
     image: 'mongo'
+    
+    volumes:
+      - ./startup/:/docker-entrypoint-initdb.d/
+      - ./mongo/mongod.conf:/etc/mongod.conf
+      - ./:/app/
     ports:
       - '3000:27017'
-    volumes:
-      - ./:/app
-      
-
     restart: always
+    command: ['--auth', '-f', '/etc/mongod.conf']

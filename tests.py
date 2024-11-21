@@ -30,7 +30,7 @@ class Test:
 
     def test(self):
         print('Testing test route')
-        print(requests.post("http://localhost:5000/test", json={"text" : " fuck you " }).status_code )
+        print(requests.post("http://localhost:5000/test", json={"text" : " Hello World! " }).status_code )
         print("Got here")
 
 
