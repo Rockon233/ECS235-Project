@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Monitor</title>
+</head>
+<body>
+    <h1>Real-Time Traffic Monitor</h1>
+    <ul id="traffic-log"></ul>
+
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+    <script>
+        // Connect to the Socket.IO server
+        const socket = io();
+
+        // Get the traffic log container
+        const logList = document.getElementById('traffic-log');
+
+        // Listen for traffic events
+        socket.on('traffic', (data) => {
+            const listItem = document.createElement('li');
+            listItem.textContent = `${data.timestamp} - ${data.method} ${data.url}`;
+            logList.appendChild(listItem);
+        });
+    </script>
+</body>
+</html>

@@ -11,3 +11,6 @@ services:
       - '3000:27017'
     restart: always
     command: ['--auth', '-f', '/etc/mongod.conf']
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=password

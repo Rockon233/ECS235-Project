@@ -15,7 +15,7 @@ class Test:
         for letter in self.alphabet:
             word += letter
             for y in range(self.attempts):
-                if (requests.post("http://localhost:5000/insert", json={"word": word}).status_code != 200):
+                if (requests.post("http://localhost:8000/insert", json={"word": word}).status_code != 200):
                     print("Insert failed")
         print("Finished")
         
@@ -24,16 +24,20 @@ class Test:
         word = None
         for perm in permutations(self.numbers):
             for y in range(self.attempts):
-                if (requests.post("http://localhost:5000/insert", json={"perm" : perm}).status_code != 200):
+                if (requests.post("http://localhost:8000/insert", json={"perm" : perm}).status_code != 200):
                     print("Insert failed")
         print("Finished")
 
     def test(self):
         print('Testing test route')
-        print(requests.post("http://localhost:5000/test", json={"text" : " Hello World! " }).status_code )
+        
+        print(requests.post("http://localhost:8000/test", json={"text" : " Hello World! " }).status_code )
         print("Got here")
+        print("-----")
 
 
 if __name__ == '__main__':
     test_class = Test()
     test_class.test()
+    # test_class.testWithWords()
+    test_class.testWithNumbers()
