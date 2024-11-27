@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitor Traffic</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.4/socket.io.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        canvas { max-width: 100%; height: 400px; }
+    </style>
+</head>
+<body>
+    <h1>Real-Time Traffic Monitor</h1>
+    <canvas id="trafficChart"></canvas>
+    <script>
+        const socket = io();
+
+        // Bar chart configuration
+        const ctx = document.getElementById('trafficChart').getContext('2d');
+        const trafficChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: [],  // Timestamps
+                datasets: [{
+                    label: 'Requests per Second',
+                    data: [],  // Traffic counts
+                    backgroundColor: [], // Array to store dynamic bar colors
+                    borderColor: 'rgba(75, 192, 192, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    x: { title: { display: true, text: 'Time' } },
+                    y: { beginAtZero: true, title: { display: true, text: 'Requests' } }
+                }
+            }
+        });
+
+        // Update chart with traffic data
+        socket.on('traffic_chart', function (data) {
+            const { time, count } = data;
+
+            // Determine bar color
+            const barColor = count > 10 ? 'rgba(255, 99, 132, 0.2)' : 'rgba(75, 192, 192, 0.2)';
+
+            // Check if the timestamp is already in the labels
+            const index = trafficChart.data.labels.indexOf(time);
+            if (index !== -1) {
+                // Update existing bar
+                trafficChart.data.datasets[0].data[index] = count;
+                trafficChart.data.datasets[0].backgroundColor[index] = barColor;
+            } else {
+                // Add new bar
+                trafficChart.data.labels.push(time);
+                trafficChart.data.datasets[0].data.push(count);
+                trafficChart.data.datasets[0].backgroundColor.push(barColor);
+            }
+
+            // Limit the chart to show only the last 20 bars
+            if (trafficChart.data.labels.length > 20) {
+                trafficChart.data.labels.shift();
+                trafficChart.data.datasets[0].data.shift();
+                trafficChart.data.datasets[0].backgroundColor.shift();
+            }
+
+            // Update the chart
+            trafficChart.update();
+        });
+    </script>
+</body>
+</html>

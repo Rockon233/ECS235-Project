@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Dashboard</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.4/socket.io.min.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        table { border-collapse: collapse; width: 100%; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+    <h1>Traffic Dashboard</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Endpoint</th>
+                <th>Method</th>
+                <th>Status</th>
+                <th>Data</th>
+            </tr>
+        </thead>
+        <tbody id="traffic-table">
+            <!-- Real-time data will be added here -->
+        </tbody>
+    </table>
+    <script>
+        // Connect to the Socket.IO server
+        const socket = io();
+
+        // Listen for traffic updates
+        socket.on('traffic_update', function (data) {
+            console.log("Traffic update received:", data);
+            const table = document.getElementById("traffic-table");
+            const row = table.insertRow(0);
+            row.innerHTML = `
+                <td>${data.time}</td>
+                <td>${data.endpoint}</td>
+                <td>${data.method}</td>
+                <td>${data.status}</td>
+                <td>${JSON.stringify(data.data)}</td>
+            `;
+        });
+    </script>
+</body>
+</html>

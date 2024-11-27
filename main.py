@@ -3,11 +3,16 @@ from flask import Flask, request, jsonify, render_template
 from flask_pymongo import PyMongo
 from flask_socketio import SocketIO, emit
 import time
+from collections import defaultdict
 
 app = Flask(__name__)
 
-app.config["MONGO_URI"] = "mongodb://localhost:3000/classdb"
+app.config["MONGO_URI"] = "mongodb://root:password@localhost:3000/classdb?authSource=admin"
 mongo = PyMongo(app)
+
+socketio = SocketIO(app, cors_allowed_origins="*")  # Allow cross-origin requests for WebSocket
+traffic_data = []
+traffic_counts = defaultdict(int)
 
 @app.route('/', methods=['GET'])
 def hello():
@@ -15,17 +20,45 @@ def hello():
 
 @app.route('/insert', methods=['POST'])
 def insert():
+    record_traffic(request)  # Track this endpoint
     print(request.json)
     return '', 200
 
+
 @app.route('/test', methods=['POST'])
 def test():
-    print("Request recieved in Flask")
-    data = request.json
-    mongo.db.classdb.insert_one(data)
-    return jsonify({"msg": "Document added successfully!"}), 201
+    record_traffic(request)
+    try:
+        print("Request received in Flask")
+        data = request.json
+        mongo.db.classdb.insert_one(data)
+        return jsonify({"msg": "Document added successfully!"}), 201
+    except Exception as e:
+        print(f"Error: {e}")
+        return jsonify({"error": str(e)}), 500
 
+@app.route('/traffic', methods=['GET'])
+def traffic():
+    return render_template('traffic.html')
+
+@app.route('/monitor', methods=['GET'])
+def monitor():
+    return render_template('monitor.html')
+
+def record_traffic(req, success=True):
+    current_time = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())
+    traffic_entry = {
+        "time": current_time,
+        "endpoint": req.path,
+        "method": req.method,
+        "status": "Success" if success else "Failed",
+        "data": req.json or {}
+    }
+    traffic_data.append(traffic_entry)
+    traffic_counts[current_time] += 1
+    socketio.emit('traffic_update', traffic_entry)
+    socketio.emit('traffic_chart', {"time": current_time, "count": traffic_counts[current_time]})
 
 if __name__ == '__main__':
-    app.run(port = 8000, debug=True)
+    socketio.run(app, port=8000, debug=True)
 
