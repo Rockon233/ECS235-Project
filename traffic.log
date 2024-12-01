@@ -103,3 +103,155 @@
 2024-11-30 22:21:32,649 - Time: 2024-11-30 22:21:32, Endpoint: /test, Method: POST, Status: Success, Data: {'text': ' Hello World! 2024-11-30 22:21:32.639120'}
 2024-11-30 22:21:32,650 - Time: 2024-11-30 22:21:32, Endpoint: /test, Method: POST, Status: Success, Data: {'text': ' Hello World! 2024-11-30 22:21:32.640563'}
 2024-11-30 22:21:32,651 - Time: 2024-11-30 22:21:32, Endpoint: /test, Method: POST, Status: Success, Data: {'text': ' Hello World! 2024-11-30 22:21:32.641598'}
+2024-11-30 22:49:08,420 -  * Restarting with stat
+2024-11-30 22:49:08,660 -  * Debugger is active!
+2024-11-30 22:49:08,665 -  * Debugger PIN: 163-663-454
+2024-11-30 22:56:16,121 -  * Detected change in '/Users/victorhuang/Documents/ECS235A/ECS235-Project/hmac_example.py', reloading
+2024-11-30 22:56:16,190 -  * Restarting with stat
+2024-11-30 22:56:16,570 -  * Debugger is active!
+2024-11-30 22:56:16,575 -  * Debugger PIN: 163-663-454
+2024-11-30 22:56:24,690 -  * Detected change in '/Users/victorhuang/Documents/ECS235A/ECS235-Project/hmac_example.py', reloading
+2024-11-30 22:56:24,728 -  * Restarting with stat
+2024-11-30 22:56:25,034 -  * Debugger is active!
+2024-11-30 22:56:25,037 -  * Debugger PIN: 163-663-454
+2024-12-01 11:04:39,422 -  * Restarting with stat
+2024-12-01 11:04:39,672 -  * Debugger is active!
+2024-12-01 11:04:39,680 -  * Debugger PIN: 163-663-454
+2024-12-01 11:06:41,174 - Signup error: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2024-12-01 11:09:06,737 -  * Detected change in '/Users/victorhuang/Documents/ECS235A/ECS235-Project/main.py', reloading
+2024-12-01 11:09:06,805 -  * Restarting with stat
+2024-12-01 11:09:07,230 -  * Debugger is active!
+2024-12-01 11:09:07,235 -  * Debugger PIN: 163-663-454
+2024-12-01 11:09:09,274 -  * Detected change in '/Users/victorhuang/Documents/ECS235A/ECS235-Project/main.py', reloading
+2024-12-01 11:09:09,325 -  * Restarting with stat
+2024-12-01 11:09:09,573 -  * Debugger is active!
+2024-12-01 11:09:09,576 -  * Debugger PIN: 163-663-454
+2024-12-01 11:09:12,531 -  * Restarting with stat
+2024-12-01 11:09:12,782 -  * Debugger is active!
+2024-12-01 11:09:12,786 -  * Debugger PIN: 163-663-454
+2024-12-01 11:13:35,770 -  * Restarting with stat
+2024-12-01 11:13:36,016 -  * Debugger is active!
+2024-12-01 11:13:36,019 -  * Debugger PIN: 163-663-454
+2024-12-01 11:15:30,400 -  * Restarting with stat
+2024-12-01 11:15:30,661 -  * Debugger is active!
+2024-12-01 11:15:30,666 -  * Debugger PIN: 163-663-454
+2024-12-01 11:16:44,177 -  * Restarting with stat
+2024-12-01 11:16:44,428 -  * Debugger is active!
+2024-12-01 11:16:44,432 -  * Debugger PIN: 163-663-454
+2024-12-01 11:18:14,175 -  * Restarting with stat
+2024-12-01 11:18:14,436 -  * Debugger is active!
+2024-12-01 11:18:14,443 -  * Debugger PIN: 163-663-454
+2024-12-01 11:22:11,988 -  * Detected change in '/Users/victorhuang/Documents/ECS235A/ECS235-Project/main.py', reloading
+2024-12-01 11:22:12,448 -  * Restarting with stat
+2024-12-01 11:22:12,865 -  * Debugger is active!
+2024-12-01 11:22:12,870 -  * Debugger PIN: 163-663-454
+2024-12-01 11:22:21,001 -  * Detected change in '/Users/victorhuang/Documents/ECS235A/ECS235-Project/main.py', reloading
+2024-12-01 11:22:21,046 -  * Restarting with stat
+2024-12-01 11:22:21,383 -  * Debugger is active!
+2024-12-01 11:22:21,387 -  * Debugger PIN: 163-663-454
+2024-12-01 11:22:28,510 -  * Detected change in '/Users/victorhuang/Documents/ECS235A/ECS235-Project/main.py', reloading
+2024-12-01 11:22:28,562 -  * Restarting with stat
+2024-12-01 11:22:28,891 -  * Debugger is active!
+2024-12-01 11:22:28,898 -  * Debugger PIN: 163-663-454
+2024-12-01 11:22:31,942 -  * Detected change in '/Users/victorhuang/Documents/ECS235A/ECS235-Project/main.py', reloading
+2024-12-01 11:22:31,983 -  * Restarting with stat
+2024-12-01 11:22:44,490 -  * Restarting with stat
+2024-12-01 11:22:44,728 -  * Debugger is active!
+2024-12-01 11:22:44,733 -  * Debugger PIN: 163-663-454
+2024-12-01 11:23:56,358 -  * Detected change in '/Users/victorhuang/Documents/ECS235A/ECS235-Project/main.py', reloading
+2024-12-01 11:23:56,757 -  * Restarting with stat
+2024-12-01 11:23:57,173 -  * Debugger is active!
+2024-12-01 11:23:57,178 -  * Debugger PIN: 163-663-454
+2024-12-01 11:26:14,857 -  * Detected change in '/Users/victorhuang/Documents/ECS235A/ECS235-Project/main.py', reloading
+2024-12-01 11:26:15,403 -  * Restarting with stat
+2024-12-01 11:26:15,792 -  * Debugger is active!
+2024-12-01 11:26:15,796 -  * Debugger PIN: 163-663-454
+2024-12-01 11:26:37,263 -  * Detected change in '/Users/victorhuang/Documents/ECS235A/ECS235-Project/main.py', reloading
+2024-12-01 11:26:37,314 -  * Restarting with stat
+2024-12-01 11:26:37,664 -  * Debugger is active!
+2024-12-01 11:26:37,668 -  * Debugger PIN: 163-663-454
+2024-12-01 11:26:48,856 -  * Detected change in '/Users/victorhuang/Documents/ECS235A/ECS235-Project/main.py', reloading
+2024-12-01 11:26:48,891 -  * Restarting with stat
+2024-12-01 11:26:49,239 -  * Debugger is active!
+2024-12-01 11:26:49,243 -  * Debugger PIN: 163-663-454
+2024-12-01 11:26:51,279 -  * Detected change in '/Users/victorhuang/Documents/ECS235A/ECS235-Project/main.py', reloading
+2024-12-01 11:26:51,320 -  * Restarting with stat
+2024-12-01 11:26:51,603 -  * Debugger is active!
+2024-12-01 11:26:51,606 -  * Debugger PIN: 163-663-454
+2024-12-01 11:26:53,656 -  * Detected change in '/Users/victorhuang/Documents/ECS235A/ECS235-Project/main.py', reloading
+2024-12-01 11:26:53,699 -  * Restarting with stat
+2024-12-01 11:26:53,959 -  * Debugger is active!
+2024-12-01 11:26:53,963 -  * Debugger PIN: 163-663-454
+2024-12-01 11:26:58,306 -  * Restarting with stat
+2024-12-01 11:26:58,550 -  * Debugger is active!
+2024-12-01 11:26:58,554 -  * Debugger PIN: 163-663-454
+2024-12-01 11:28:28,167 -  * Restarting with stat
+2024-12-01 11:28:28,436 -  * Debugger is active!
+2024-12-01 11:28:28,441 -  * Debugger PIN: 163-663-454
+2024-12-01 11:30:24,446 -  * Detected change in '/Users/victorhuang/Documents/ECS235A/ECS235-Project/main.py', reloading
+2024-12-01 11:30:24,524 -  * Restarting with stat
+2024-12-01 11:32:08,693 -  * Restarting with stat
+2024-12-01 11:32:08,928 -  * Debugger is active!
+2024-12-01 11:32:08,933 -  * Debugger PIN: 163-663-454
+2024-12-01 11:34:54,410 -  * Detected change in '/Users/victorhuang/Documents/ECS235A/ECS235-Project/main.py', reloading
+2024-12-01 11:34:54,933 -  * Restarting with stat
+2024-12-01 11:34:55,323 -  * Debugger is active!
+2024-12-01 11:34:55,329 -  * Debugger PIN: 163-663-454
+2024-12-01 11:35:11,611 -  * Detected change in '/Users/victorhuang/Documents/ECS235A/ECS235-Project/main.py', reloading
+2024-12-01 11:35:11,662 -  * Restarting with stat
+2024-12-01 11:35:12,005 -  * Debugger is active!
+2024-12-01 11:35:12,008 -  * Debugger PIN: 163-663-454
+2024-12-01 11:35:13,027 -  * Detected change in '/Users/victorhuang/Documents/ECS235A/ECS235-Project/main.py', reloading
+2024-12-01 11:35:13,063 -  * Restarting with stat
+2024-12-01 11:35:13,314 -  * Debugger is active!
+2024-12-01 11:35:13,317 -  * Debugger PIN: 163-663-454
+2024-12-01 11:35:16,373 -  * Detected change in '/Users/victorhuang/Documents/ECS235A/ECS235-Project/main.py', reloading
+2024-12-01 11:35:16,411 -  * Restarting with stat
+2024-12-01 11:35:16,652 -  * Debugger is active!
+2024-12-01 11:35:16,656 -  * Debugger PIN: 163-663-454
+2024-12-01 11:35:18,702 -  * Detected change in '/Users/victorhuang/Documents/ECS235A/ECS235-Project/main.py', reloading
+2024-12-01 11:35:18,739 -  * Restarting with stat
+2024-12-01 11:35:18,991 -  * Debugger is active!
+2024-12-01 11:35:18,996 -  * Debugger PIN: 163-663-454
+2024-12-01 11:35:32,254 -  * Detected change in '/Users/victorhuang/Documents/ECS235A/ECS235-Project/main.py', reloading
+2024-12-01 11:35:32,298 -  * Restarting with stat
+2024-12-01 11:35:32,709 -  * Debugger is active!
+2024-12-01 11:35:32,713 -  * Debugger PIN: 163-663-454
+2024-12-01 11:35:37,793 -  * Detected change in '/Users/victorhuang/Documents/ECS235A/ECS235-Project/main.py', reloading
+2024-12-01 11:35:37,833 -  * Restarting with stat
+2024-12-01 11:36:51,991 -  * Restarting with stat
+2024-12-01 11:36:52,260 -  * Debugger is active!
+2024-12-01 11:36:52,265 -  * Debugger PIN: 163-663-454
+2024-12-01 11:37:10,709 -  * Detected change in '/Users/victorhuang/Documents/ECS235A/ECS235-Project/main.py', reloading
+2024-12-01 11:37:10,774 -  * Restarting with stat
+2024-12-01 11:37:11,987 -  * Restarting with stat
+2024-12-01 11:37:12,254 -  * Debugger is active!
+2024-12-01 11:37:12,259 -  * Debugger PIN: 163-663-454
+2024-12-01 11:37:40,833 -  * Detected change in '/Users/victorhuang/Documents/ECS235A/ECS235-Project/main.py', reloading
+2024-12-01 11:37:40,876 -  * Restarting with stat
+2024-12-01 11:37:41,276 -  * Debugger is active!
+2024-12-01 11:37:41,280 -  * Debugger PIN: 163-663-454
+2024-12-01 11:37:45,345 -  * Detected change in '/Users/victorhuang/Documents/ECS235A/ECS235-Project/main.py', reloading
+2024-12-01 11:37:45,384 -  * Restarting with stat
+2024-12-01 11:37:45,628 -  * Debugger is active!
+2024-12-01 11:37:45,632 -  * Debugger PIN: 163-663-454
+2024-12-01 11:37:54,802 -  * Detected change in '/Users/victorhuang/Documents/ECS235A/ECS235-Project/main.py', reloading
+2024-12-01 11:37:54,892 -  * Restarting with stat
+2024-12-01 11:37:55,216 -  * Debugger is active!
+2024-12-01 11:37:55,222 -  * Debugger PIN: 163-663-454
+2024-12-01 11:40:14,038 -  * Detected change in '/Users/victorhuang/Documents/ECS235A/ECS235-Project/main.py', reloading
+2024-12-01 11:40:14,088 -  * Restarting with stat
+2024-12-01 11:40:14,501 -  * Debugger is active!
+2024-12-01 11:40:14,505 -  * Debugger PIN: 163-663-454
+2024-12-01 11:40:22,646 -  * Detected change in '/Users/victorhuang/Documents/ECS235A/ECS235-Project/main.py', reloading
+2024-12-01 11:40:22,702 -  * Restarting with stat
+2024-12-01 11:40:23,050 -  * Debugger is active!
+2024-12-01 11:40:23,054 -  * Debugger PIN: 163-663-454
+2024-12-01 11:40:30,190 -  * Detected change in '/Users/victorhuang/Documents/ECS235A/ECS235-Project/main.py', reloading
+2024-12-01 11:40:30,226 -  * Restarting with stat
+2024-12-01 11:40:30,558 -  * Debugger is active!
+2024-12-01 11:40:30,562 -  * Debugger PIN: 163-663-454
+2024-12-01 11:40:33,626 -  * Detected change in '/Users/victorhuang/Documents/ECS235A/ECS235-Project/main.py', reloading
+2024-12-01 11:40:33,676 -  * Restarting with stat
+2024-12-01 11:40:33,986 -  * Debugger is active!
+2024-12-01 11:40:33,989 -  * Debugger PIN: 163-663-454
