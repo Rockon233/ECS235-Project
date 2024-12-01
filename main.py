@@ -3,7 +3,15 @@ from flask import Flask, request, jsonify, render_template
 from flask_pymongo import PyMongo
 from flask_socketio import SocketIO, emit
 import time
+import logging
 from collections import defaultdict
+
+logging.basicConfig(
+    filename = 'traffic.log',
+    level = logging.INFO,
+    format='%(asctime)s - %(message)s',  
+
+)
 
 app = Flask(__name__)
 
@@ -58,7 +66,10 @@ def record_traffic(req, success=True):
     traffic_counts[current_time] += 1
     socketio.emit('traffic_update', traffic_entry)
     socketio.emit('traffic_chart', {"time": current_time, "count": traffic_counts[current_time]})
-
+    log_message = f"Time: {current_time}, Endpoint: {req.path}, Method: {req.method}, " \
+                  f"Status: {'Success' if success else 'Failed'}, Data: {req.json or {}}"
+    logging.info(log_message)
+    
 if __name__ == '__main__':
     socketio.run(app, port=8000, debug=True)
 
