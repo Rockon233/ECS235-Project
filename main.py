@@ -38,7 +38,8 @@ def login_required(func):
 
 def admin_required(func):
     def wrapper(*args, **kwargs):
-        if session['role'] != 'admin':
+        if 'user' not in session or session['role'] != "admin":
+            
             return redirect(url_for('permission_deny'))
         return func(*args, **kwargs)
     wrapper.__name__ = func.__name__
@@ -53,10 +54,10 @@ def main():
 def index():
     return redirect(url_for('main'))
 
-@app.route('/admin-dashboard')
+@app.route('/admin')
 @admin_required
-def admin_dashboard():
-    return "Welcome to the Admin Dashboard"
+def admin():
+    return "Welcome to the Admin Dashboard!!"
 
 @app.route('/permission_deny')
 def permission_deny():
@@ -158,6 +159,8 @@ def login():
             # Store user session
             session['user'] = username
             session['role'] = user['role']
+            # if user['role'] == "admin":
+            #     return redirect(url_for('admin'))
             return jsonify({"msg": "Login successful!", "role": user['role']}), 200
         else:
             return jsonify({"error": "Invalid username or password"}), 401
