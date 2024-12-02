@@ -38,15 +38,26 @@ def login_required(func):
 
 def admin_required(func):
     def wrapper(*args, **kwargs):
-        if 'admin' not in session:
+        if session['role'] != 'admin':
             return redirect(url_for('permission_deny'))
         return func(*args, **kwargs)
     wrapper.__name__ = func.__name__
     return wrapper
 
-@app.route('/', methods=['GET'])
-def hello():
-    return "Hello world"
+@app.route('/', methods=['GET','POST'])
+def main():
+    if request.method == "GET":
+        return render_template('index.html')
+
+@app.route('/index', methods = ["GET"])
+def index():
+    return redirect(url_for('main'))
+
+@app.route('/admin-dashboard')
+@admin_required
+def admin_dashboard():
+    return "Welcome to the Admin Dashboard"
+
 @app.route('/permission_deny')
 def permission_deny():
     return "Permission Deny! (contact admin)"
@@ -146,7 +157,8 @@ def login():
         if user and check_password_hash(user['password'], password):
             # Store user session
             session['user'] = username
-            return jsonify({"msg": "Login successful!"}), 200
+            session['role'] = user['role']
+            return jsonify({"msg": "Login successful!", "role": user['role']}), 200
         else:
             return jsonify({"error": "Invalid username or password"}), 401
 
