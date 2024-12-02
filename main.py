@@ -39,7 +39,6 @@ def login_required(func):
 def admin_required(func):
     def wrapper(*args, **kwargs):
         if 'user' not in session or session['role'] != "admin":
-            
             return redirect(url_for('permission_deny'))
         return func(*args, **kwargs)
     wrapper.__name__ = func.__name__
