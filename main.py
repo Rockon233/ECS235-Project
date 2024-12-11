@@ -8,7 +8,9 @@ from collections import defaultdict
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_cors import CORS
 from encryption.aes import AESOBJ
-from Crypto.Cipher import AES
+from Crypto.PublicKey import RSA
+from Crypto.Cipher import AES, PKCS1_OAEP
+from Crypto.Random import get_random_bytes
 from Crypto.Util.Padding import pad, unpad
 from bson.json_util import dumps
 import json
@@ -23,6 +25,10 @@ key = b'sixteen_byte_key'  # 16-byte key, Byte string
 cipher = AES.new(key, AES.MODE_ECB)
 # key = b'8bytekey'  # 8-byte key, Byte string
 # cipher = AES.new(key, AES.MODE_ECB)
+rsaKey = RSA.generate(2048)
+private_key = rsaKey.export_key()
+public_key = rsaKey.publickey().export_key()
+
 
 app = Flask(__name__)
 app.secret_key = "your_unique_secret_key"
@@ -142,6 +148,39 @@ def test():
     except Exception as e:
         print(f"Error: {e}")
         return jsonify({"error": str(e)}), 500
+
+@app.route('/testrsa', methods=['POST'])
+def testrsa():
+    record_traffic(request)
+    try:
+        start = time.perf_counter()
+        data = request.json
+        plaintext = data['word'].encode()
+        cipher = PKCS1_OAEP.new(RSA.import_key(public_key))
+        ciphertext = cipher.encrypt(plaintext).hex()
+        duration = time.perf_counter() - start
+        print(f"Encryption duration: {duration:.6f} seconds")
+
+        dec_start = time.perf_counter()
+        cipher = PKCS1_OAEP.new(RSA.import_key(private_key))
+        decrypted = cipher.decrypt(bytes.fromhex(ciphertext))
+        dec_duration = time.perf_counter() - dec_start
+        print("Decrypted Plaintext:", decrypted.decode())
+        print(f"Decryption duration: {dec_duration:.6f} seconds")
+
+        document = {
+            "ciphertext": ciphertext,
+            "deciphertext": decrypted.decode('utf-8'),
+            "encryption_duration": f"{duration:.6f} seconds",
+            "decryption_duration": f"{dec_duration:.6f} seconds",
+            }
+        mongo.db.classdb.insert_one(document)
+
+        return jsonify({"msg": "Document added successfully!"}), 201
+    except Exception as e:
+        print(f"Error: {e}")
+        return jsonify({"error": str(e)}), 500
+
 
 @app.route('/getdata', methods=['GET'])
 def get_data():

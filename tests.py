@@ -17,7 +17,7 @@ class Test:
         for letter in self.alphabet:
             word += letter
             for y in range(self.attempts):
-                response = requests.post("http://localhost:8000/test", json={"word": word})
+                response = requests.post("http://localhost:8000/testrsa", json={"word": word})
                 if (response.status_code != 201):
                     print("test failed")
                     print(response.json)
