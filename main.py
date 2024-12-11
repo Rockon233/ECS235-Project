@@ -114,12 +114,14 @@ def insert():
 def test():
     record_traffic(request)
     try:
+        start = time.perf_counter()
         data = request.json
         padded_plaintext = pad(data['word'].encode('utf-8'), 16)  # Pad to match block size
         ciphertext = cipher.encrypt(padded_plaintext)
         document = {"ciphertext": ciphertext}
         mongo.db.classdb.insert_one(document)
-        
+        duration = time.perf_counter() - start
+        print(f"Encryption duration: {duration:.6f} seconds")
         return jsonify({"msg": "Document added successfully!"}), 201
     except Exception as e:
         print(f"Error: {e}")
