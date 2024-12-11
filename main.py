@@ -117,7 +117,8 @@ def test():
         data = request.json
         padded_plaintext = pad(data['word'].encode('utf-8'), 16)  # Pad to match block size
         ciphertext = cipher.encrypt(padded_plaintext)
-        mongo.db.classdb.insert_one(data)
+        document = {"ciphertext": ciphertext}
+        mongo.db.classdb.insert_one(document)
         
         return jsonify({"msg": "Document added successfully!"}), 201
     except Exception as e:
