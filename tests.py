@@ -12,17 +12,19 @@ class Test:
 
     def testWithWords(self):
         print("Entering test with words")
-        word = None
+        word = ''
         for letter in self.alphabet:
             word += letter
             for y in range(self.attempts):
-                if (requests.post("http://localhost:8000/insert", json={"word": word}).status_code != 200):
-                    print("Insert failed")
+                response = requests.post("http://localhost:8000/test", json={"word": word})
+                if (response.status_code != 201):
+                    print("test failed")
+                    print(response.json)
+                    
         print("Finished")
         
     def testWithNumbers(self):
         print("Entering test with numbers")
-        word = None
         for perm in permutations(self.numbers):
             for y in range(self.attempts):
                 if (requests.post("http://localhost:8000/insert", json={"perm" : perm}).status_code != 200):
@@ -40,6 +42,5 @@ class Test:
 if __name__ == '__main__':
     random_num = random
     test_class = Test()
-    test_class.test()
     # test_class.testWithWords()
-    test_class.testWithNumbers()
+    test_class.testWithWords()

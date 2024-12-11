@@ -8,13 +8,21 @@ from collections import defaultdict
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_cors import CORS
 from encryption.aes import AESOBJ
+from Crypto.Cipher import AES
+from Crypto.Util.Padding import pad, unpad
+from bson.json_util import dumps
+import json
+
+
 
 logging.basicConfig(
     filename = 'traffic.log',
     level = logging.INFO,
     format='%(asctime)s - %(message)s',  
-
 )
+
+key = b'sixteen_byte_key'  # 16-byte key, Byte string
+cipher = AES.new(key, AES.MODE_ECB)
 
 app = Flask(__name__)
 app.secret_key = "your_unique_secret_key"
@@ -106,11 +114,23 @@ def insert():
 def test():
     record_traffic(request)
     try:
-        print("Request received in Flask")
         data = request.json
+        padded_plaintext = pad(data['word'].encode('utf-8'), 16)  # Pad to match block size
+        ciphertext = cipher.encrypt(padded_plaintext)
         mongo.db.classdb.insert_one(data)
         
         return jsonify({"msg": "Document added successfully!"}), 201
+    except Exception as e:
+        print(f"Error: {e}")
+        return jsonify({"error": str(e)}), 500
+    
+@app.route('/getdata', methods=['GET'])
+def get_data():
+    # record_traffic(request)
+    try:
+        data = mongo.db.classdb.find()
+        data = json.loads(dumps(data))
+        return jsonify(data), 200
     except Exception as e:
         print(f"Error: {e}")
         return jsonify({"error": str(e)}), 500
@@ -170,5 +190,5 @@ def logout():
     return redirect(url_for('login'))
 
 if __name__ == '__main__':
-    socketio.run(app, port=8000, debug=True)
+    socketio.run(app, port=8000, debug=True, log_output=True)
 

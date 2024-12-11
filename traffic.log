@@ -1,0 +1,1534 @@
+2024-12-10 14:25:49,105 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2024-12-10 14:25:49,105 - [33mPress CTRL+C to quit[0m
+2024-12-10 14:25:49,105 -  * Restarting with stat
+2024-12-10 14:25:49,236 -  * Debugger is active!
+2024-12-10 14:25:49,282 -  * Debugger PIN: 130-705-631
+2024-12-10 14:28:28,950 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2024-12-10 14:28:28,950 - [33mPress CTRL+C to quit[0m
+2024-12-10 14:28:28,950 -  * Restarting with stat
+2024-12-10 14:28:29,099 -  * Debugger is active!
+2024-12-10 14:28:29,100 -  * Debugger PIN: 130-705-631
+2024-12-10 14:28:45,074 - 127.0.0.1 - - [10/Dec/2024 14:28:45] "[33mGET /logging HTTP/1.1[0m" 404 -
+2024-12-10 14:28:45,703 - 127.0.0.1 - - [10/Dec/2024 14:28:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-10 14:28:48,297 - 127.0.0.1 - - [10/Dec/2024 14:28:48] "GET / HTTP/1.1" 200 -
+2024-12-10 14:29:34,975 - 127.0.0.1 - - [10/Dec/2024 14:29:34] "GET /signup HTTP/1.1" 200 -
+2024-12-10 14:29:43,534 - 127.0.0.1 - - [10/Dec/2024 14:29:43] "[35m[1mPOST /signup HTTP/1.1[0m" 201 -
+2024-12-10 14:30:01,439 - 127.0.0.1 - - [10/Dec/2024 14:30:01] "GET / HTTP/1.1" 200 -
+2024-12-10 14:30:03,508 - 127.0.0.1 - - [10/Dec/2024 14:30:03] "GET /login HTTP/1.1" 200 -
+2024-12-10 14:30:06,803 - 127.0.0.1 - - [10/Dec/2024 14:30:06] "POST /login HTTP/1.1" 200 -
+2024-12-10 14:30:07,135 - 127.0.0.1 - - [10/Dec/2024 14:30:07] "[32mGET /monitor HTTP/1.1[0m" 302 -
+2024-12-10 14:30:07,384 - 127.0.0.1 - - [10/Dec/2024 14:30:07] "GET /permission_deny HTTP/1.1" 200 -
+2024-12-10 14:45:41,565 - 127.0.0.1 - - [10/Dec/2024 14:45:41] "GET /login HTTP/1.1" 200 -
+2024-12-10 14:45:48,872 - 127.0.0.1 - - [10/Dec/2024 14:45:48] "POST /login HTTP/1.1" 200 -
+2024-12-10 14:45:49,204 - 127.0.0.1 - - [10/Dec/2024 14:45:49] "[32mGET /monitor HTTP/1.1[0m" 302 -
+2024-12-10 14:45:49,454 - 127.0.0.1 - - [10/Dec/2024 14:45:49] "GET /permission_deny HTTP/1.1" 200 -
+2024-12-10 14:46:07,558 -  * Detected change in '/home/rafad900/UCDavis/ECS235A/ECS235-Project/main.py', reloading
+2024-12-10 14:46:07,899 -  * Restarting with stat
+2024-12-10 14:46:08,171 -  * Debugger is active!
+2024-12-10 14:46:08,171 -  * Debugger PIN: 130-705-631
+2024-12-10 14:46:21,217 -  * Detected change in '/home/rafad900/UCDavis/ECS235A/ECS235-Project/main.py', reloading
+2024-12-10 14:46:21,251 -  * Restarting with stat
+2024-12-10 14:46:21,413 -  * Debugger is active!
+2024-12-10 14:46:21,413 -  * Debugger PIN: 130-705-631
+2024-12-10 14:46:31,454 -  * Detected change in '/home/rafad900/UCDavis/ECS235A/ECS235-Project/main.py', reloading
+2024-12-10 14:46:31,495 -  * Restarting with stat
+2024-12-10 14:46:31,667 -  * Debugger is active!
+2024-12-10 14:46:31,667 -  * Debugger PIN: 130-705-631
+2024-12-10 14:46:33,344 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2024-12-10 14:46:33,344 - [33mPress CTRL+C to quit[0m
+2024-12-10 14:46:33,344 -  * Restarting with stat
+2024-12-10 14:46:33,484 -  * Debugger is active!
+2024-12-10 14:46:33,484 -  * Debugger PIN: 130-705-631
+2024-12-10 14:46:36,450 - 127.0.0.1 - - [10/Dec/2024 14:46:36] "GET /login HTTP/1.1" 200 -
+2024-12-10 14:46:41,224 - 127.0.0.1 - - [10/Dec/2024 14:46:41] "POST /login HTTP/1.1" 200 -
+2024-12-10 14:46:41,562 - 127.0.0.1 - - [10/Dec/2024 14:46:41] "[32mGET /monitor HTTP/1.1[0m" 302 -
+2024-12-10 14:46:41,824 - 127.0.0.1 - - [10/Dec/2024 14:46:41] "GET /permission_deny HTTP/1.1" 200 -
+2024-12-10 14:47:28,658 -  * Detected change in '/home/rafad900/UCDavis/ECS235A/ECS235-Project/main.py', reloading
+2024-12-10 14:47:28,764 -  * Restarting with stat
+2024-12-10 14:47:28,937 -  * Debugger is active!
+2024-12-10 14:47:28,938 -  * Debugger PIN: 130-705-631
+2024-12-10 14:47:30,465 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2024-12-10 14:47:30,465 - [33mPress CTRL+C to quit[0m
+2024-12-10 14:47:30,465 -  * Restarting with stat
+2024-12-10 14:47:30,607 -  * Debugger is active!
+2024-12-10 14:47:30,608 -  * Debugger PIN: 130-705-631
+2024-12-10 14:47:32,343 - 127.0.0.1 - - [10/Dec/2024 14:47:32] "GET /permission_deny HTTP/1.1" 200 -
+2024-12-10 14:47:36,139 - 127.0.0.1 - - [10/Dec/2024 14:47:36] "GET /login HTTP/1.1" 200 -
+2024-12-10 14:47:39,791 - 127.0.0.1 - - [10/Dec/2024 14:47:39] "POST /login HTTP/1.1" 200 -
+2024-12-10 14:47:39,971 - 127.0.0.1 - - [10/Dec/2024 14:47:39] "[32mGET /monitor HTTP/1.1[0m" 302 -
+2024-12-10 14:47:40,127 - 127.0.0.1 - - [10/Dec/2024 14:47:40] "GET /permission_deny HTTP/1.1" 200 -
+2024-12-10 14:47:49,419 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2024-12-10 14:47:49,420 - [33mPress CTRL+C to quit[0m
+2024-12-10 14:47:49,420 -  * Restarting with stat
+2024-12-10 14:47:49,553 -  * Debugger is active!
+2024-12-10 14:47:49,554 -  * Debugger PIN: 130-705-631
+2024-12-10 14:47:54,018 - 127.0.0.1 - - [10/Dec/2024 14:47:54] "POST /login HTTP/1.1" 200 -
+2024-12-10 14:47:54,199 - 127.0.0.1 - - [10/Dec/2024 14:47:54] "[32mGET /monitor HTTP/1.1[0m" 302 -
+2024-12-10 14:47:54,354 - 127.0.0.1 - - [10/Dec/2024 14:47:54] "GET /permission_deny HTTP/1.1" 200 -
+2024-12-10 14:48:38,702 -  * Detected change in '/home/rafad900/UCDavis/ECS235A/ECS235-Project/main.py', reloading
+2024-12-10 14:48:39,027 -  * Restarting with stat
+2024-12-10 14:49:26,966 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2024-12-10 14:49:26,966 - [33mPress CTRL+C to quit[0m
+2024-12-10 14:49:26,967 -  * Restarting with stat
+2024-12-10 14:49:27,101 -  * Debugger is active!
+2024-12-10 14:49:27,103 -  * Debugger PIN: 130-705-631
+2024-12-10 14:49:33,259 - 127.0.0.1 - - [10/Dec/2024 14:49:33] "GET /login HTTP/1.1" 200 -
+2024-12-10 14:49:35,870 - 127.0.0.1 - - [10/Dec/2024 14:49:35] "POST /login HTTP/1.1" 200 -
+2024-12-10 14:49:36,205 - 127.0.0.1 - - [10/Dec/2024 14:49:36] "[32mGET /monitor HTTP/1.1[0m" 302 -
+2024-12-10 14:49:36,468 - 127.0.0.1 - - [10/Dec/2024 14:49:36] "GET /permission_deny HTTP/1.1" 200 -
+2024-12-10 14:49:58,249 - 127.0.0.1 - - [10/Dec/2024 14:49:58] "GET /traffic HTTP/1.1" 200 -
+2024-12-10 14:49:58,773 - 127.0.0.1 - - [10/Dec/2024 14:49:58] "GET /socket.io/?EIO=4&transport=polling&t=PEomzF1 HTTP/1.1" 200 -
+2024-12-10 14:49:59,038 - 127.0.0.1 - - [10/Dec/2024 14:49:59] "POST /socket.io/?EIO=4&transport=polling&t=PEomzJv&sid=HG48y5JbtMdJ6WPNAAAA HTTP/1.1" 200 -
+2024-12-10 14:49:59,086 - 127.0.0.1 - - [10/Dec/2024 14:49:59] "GET /socket.io/?EIO=4&transport=polling&t=PEomzJw&sid=HG48y5JbtMdJ6WPNAAAA HTTP/1.1" 200 -
+2024-12-10 14:49:59,092 - 127.0.0.1 - - [10/Dec/2024 14:49:59] "GET /socket.io/?EIO=4&transport=polling&t=PEomzOn&sid=HG48y5JbtMdJ6WPNAAAA HTTP/1.1" 200 -
+2024-12-10 14:56:48,461 - 127.0.0.1 - - [10/Dec/2024 14:56:48] "GET /socket.io/?EIO=4&transport=websocket&sid=HG48y5JbtMdJ6WPNAAAA HTTP/1.1" 200 -
+2024-12-10 14:56:49,602 - 127.0.0.1 - - [10/Dec/2024 14:56:49] "GET /login HTTP/1.1" 200 -
+2024-12-10 14:56:53,393 - 127.0.0.1 - - [10/Dec/2024 14:56:53] "POST /login HTTP/1.1" 200 -
+2024-12-10 14:56:53,719 - 127.0.0.1 - - [10/Dec/2024 14:56:53] "[32mGET /monitor HTTP/1.1[0m" 302 -
+2024-12-10 14:56:53,983 - 127.0.0.1 - - [10/Dec/2024 14:56:53] "GET /permission_deny HTTP/1.1" 200 -
+2024-12-10 14:57:11,909 - 127.0.0.1 - - [10/Dec/2024 14:57:11] "POST /login HTTP/1.1" 200 -
+2024-12-10 14:57:12,237 - 127.0.0.1 - - [10/Dec/2024 14:57:12] "[32mGET /monitor HTTP/1.1[0m" 302 -
+2024-12-10 14:57:12,504 - 127.0.0.1 - - [10/Dec/2024 14:57:12] "GET /permission_deny HTTP/1.1" 200 -
+2024-12-10 14:58:42,693 - 127.0.0.1 - - [10/Dec/2024 14:58:42] "GET /traffic HTTP/1.1" 200 -
+2024-12-10 14:58:43,058 - 127.0.0.1 - - [10/Dec/2024 14:58:43] "GET /socket.io/?EIO=4&transport=polling&t=PEoozJl HTTP/1.1" 200 -
+2024-12-10 14:58:43,493 - 127.0.0.1 - - [10/Dec/2024 14:58:43] "POST /socket.io/?EIO=4&transport=polling&t=PEoozLl&sid=FVSvD8yUAP_r0Qd-AAAC HTTP/1.1" 200 -
+2024-12-10 14:58:43,496 - 127.0.0.1 - - [10/Dec/2024 14:58:43] "GET /socket.io/?EIO=4&transport=polling&t=PEoozLm&sid=FVSvD8yUAP_r0Qd-AAAC HTTP/1.1" 200 -
+2024-12-10 14:58:43,753 - 127.0.0.1 - - [10/Dec/2024 14:58:43] "GET /socket.io/?EIO=4&transport=polling&t=PEoozR5&sid=FVSvD8yUAP_r0Qd-AAAC HTTP/1.1" 200 -
+2024-12-10 15:03:28,899 -  * Detected change in '/home/rafad900/UCDavis/ECS235A/ECS235-Project/main.py', reloading
+2024-12-10 15:03:29,430 -  * Restarting with stat
+2024-12-10 15:03:29,567 -  * Debugger is active!
+2024-12-10 15:03:29,567 -  * Debugger PIN: 130-705-631
+2024-12-10 15:03:31,042 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2024-12-10 15:03:31,042 - [33mPress CTRL+C to quit[0m
+2024-12-10 15:03:31,042 -  * Restarting with stat
+2024-12-10 15:03:31,183 -  * Debugger is active!
+2024-12-10 15:03:31,183 -  * Debugger PIN: 130-705-631
+2024-12-10 15:03:32,253 - 127.0.0.1 - - [10/Dec/2024 15:03:32] "GET /socket.io/?EIO=4&transport=polling&t=PEoq3XV HTTP/1.1" 200 -
+2024-12-10 15:03:32,486 - 127.0.0.1 - - [10/Dec/2024 15:03:32] "POST /socket.io/?EIO=4&transport=polling&t=PEoq3wW&sid=TuBcpPQeU1fnM92cAAAA HTTP/1.1" 200 -
+2024-12-10 15:03:32,565 - 127.0.0.1 - - [10/Dec/2024 15:03:32] "GET /socket.io/?EIO=4&transport=polling&t=PEoq3wY&sid=TuBcpPQeU1fnM92cAAAA HTTP/1.1" 200 -
+2024-12-10 15:03:32,574 - 127.0.0.1 - - [10/Dec/2024 15:03:32] "GET /socket.io/?EIO=4&transport=polling&t=PEoq3_P&sid=TuBcpPQeU1fnM92cAAAA HTTP/1.1" 200 -
+2024-12-10 15:04:04,811 - 127.0.0.1 - - [10/Dec/2024 15:04:04] "GET /socket.io/?EIO=4&transport=websocket&sid=TuBcpPQeU1fnM92cAAAA HTTP/1.1" 200 -
+2024-12-10 15:04:05,137 - 127.0.0.1 - - [10/Dec/2024 15:04:05] "GET /traffic HTTP/1.1" 200 -
+2024-12-10 15:04:05,485 - 127.0.0.1 - - [10/Dec/2024 15:04:05] "GET /socket.io/?EIO=4&transport=polling&t=PEoqC1g HTTP/1.1" 200 -
+2024-12-10 15:04:05,923 - 127.0.0.1 - - [10/Dec/2024 15:04:05] "POST /socket.io/?EIO=4&transport=polling&t=PEoqC3i&sid=OVVw107RcTqnIIePAAAC HTTP/1.1" 200 -
+2024-12-10 15:04:05,925 - 127.0.0.1 - - [10/Dec/2024 15:04:05] "GET /socket.io/?EIO=4&transport=polling&t=PEoqC3j&sid=OVVw107RcTqnIIePAAAC HTTP/1.1" 200 -
+2024-12-10 15:04:06,187 - 127.0.0.1 - - [10/Dec/2024 15:04:06] "GET /socket.io/?EIO=4&transport=polling&t=PEoqC9D&sid=OVVw107RcTqnIIePAAAC HTTP/1.1" 200 -
+2024-12-10 15:04:07,705 - 127.0.0.1 - - [10/Dec/2024 15:04:07] "GET /socket.io/?EIO=4&transport=websocket&sid=OVVw107RcTqnIIePAAAC HTTP/1.1" 200 -
+2024-12-10 15:04:09,273 - 127.0.0.1 - - [10/Dec/2024 15:04:09] "GET /login HTTP/1.1" 200 -
+2024-12-10 15:04:13,516 - 127.0.0.1 - - [10/Dec/2024 15:04:13] "POST /login HTTP/1.1" 200 -
+2024-12-10 15:04:13,692 - 127.0.0.1 - - [10/Dec/2024 15:04:13] "[32mGET /monitor HTTP/1.1[0m" 302 -
+2024-12-10 15:04:13,846 - 127.0.0.1 - - [10/Dec/2024 15:04:13] "GET /permission_deny HTTP/1.1" 200 -
+2024-12-10 15:50:48,229 -  * Detected change in '/home/rafad900/UCDavis/ECS235A/ECS235-Project/main.py', reloading
+2024-12-10 15:50:48,719 -  * Restarting with stat
+2024-12-10 15:50:59,910 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2024-12-10 15:50:59,910 - [33mPress CTRL+C to quit[0m
+2024-12-10 15:50:59,910 -  * Restarting with stat
+2024-12-10 15:51:00,048 -  * Debugger is active!
+2024-12-10 15:51:00,050 -  * Debugger PIN: 130-705-631
+2024-12-10 15:51:07,603 - 127.0.0.1 - - [10/Dec/2024 15:51:07] "GET /login HTTP/1.1" 200 -
+2024-12-10 15:54:18,708 -  * Detected change in '/home/rafad900/UCDavis/ECS235A/ECS235-Project/main.py', reloading
+2024-12-10 15:54:18,740 -  * Restarting with stat
+2024-12-10 15:54:18,994 -  * Debugger is active!
+2024-12-10 15:54:18,994 -  * Debugger PIN: 130-705-631
+2024-12-10 15:54:48,736 - Time: 2024-12-10 15:54:48, Endpoint: /test, Method: POST, Status: Success, Data: {'text': ' Hello World! 2024-12-10 15:54:48.733649'}
+2024-12-10 15:54:48,764 - 127.0.0.1 - - [10/Dec/2024 15:54:48] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 15:54:48,767 - Time: 2024-12-10 15:54:48, Endpoint: /insert, Method: POST, Status: Success, Data: {'perm': [0, 1, 2]}
+2024-12-10 15:54:48,767 - 127.0.0.1 - - [10/Dec/2024 15:54:48] "POST /insert HTTP/1.1" 200 -
+2024-12-10 15:54:48,769 - Time: 2024-12-10 15:54:48, Endpoint: /insert, Method: POST, Status: Success, Data: {'perm': [0, 2, 1]}
+2024-12-10 15:54:48,769 - 127.0.0.1 - - [10/Dec/2024 15:54:48] "POST /insert HTTP/1.1" 200 -
+2024-12-10 15:54:48,770 - Time: 2024-12-10 15:54:48, Endpoint: /insert, Method: POST, Status: Success, Data: {'perm': [1, 0, 2]}
+2024-12-10 15:54:48,770 - 127.0.0.1 - - [10/Dec/2024 15:54:48] "POST /insert HTTP/1.1" 200 -
+2024-12-10 15:54:48,772 - Time: 2024-12-10 15:54:48, Endpoint: /insert, Method: POST, Status: Success, Data: {'perm': [1, 2, 0]}
+2024-12-10 15:54:48,772 - 127.0.0.1 - - [10/Dec/2024 15:54:48] "POST /insert HTTP/1.1" 200 -
+2024-12-10 15:54:48,774 - Time: 2024-12-10 15:54:48, Endpoint: /insert, Method: POST, Status: Success, Data: {'perm': [2, 0, 1]}
+2024-12-10 15:54:48,774 - 127.0.0.1 - - [10/Dec/2024 15:54:48] "POST /insert HTTP/1.1" 200 -
+2024-12-10 15:54:48,775 - Time: 2024-12-10 15:54:48, Endpoint: /insert, Method: POST, Status: Success, Data: {'perm': [2, 1, 0]}
+2024-12-10 15:54:48,776 - 127.0.0.1 - - [10/Dec/2024 15:54:48] "POST /insert HTTP/1.1" 200 -
+2024-12-10 15:56:21,400 -  * Detected change in '/home/rafad900/UCDavis/ECS235A/ECS235-Project/main.py', reloading
+2024-12-10 15:56:21,898 -  * Restarting with stat
+2024-12-10 15:56:22,159 -  * Debugger is active!
+2024-12-10 15:56:22,160 -  * Debugger PIN: 130-705-631
+2024-12-10 15:56:31,863 - 127.0.0.1 - - [10/Dec/2024 15:56:31] "GET /login HTTP/1.1" 200 -
+2024-12-10 15:56:32,530 - 127.0.0.1 - - [10/Dec/2024 15:56:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-12-10 15:56:42,347 - 127.0.0.1 - - [10/Dec/2024 15:56:42] "OPTIONS /login HTTP/1.1" 200 -
+2024-12-10 15:56:42,697 - 127.0.0.1 - - [10/Dec/2024 15:56:42] "POST /login HTTP/1.1" 200 -
+2024-12-10 15:56:42,716 - 127.0.0.1 - - [10/Dec/2024 15:56:42] "[32mGET /monitor HTTP/1.1[0m" 302 -
+2024-12-10 15:56:42,724 - 127.0.0.1 - - [10/Dec/2024 15:56:42] "GET /permission_deny HTTP/1.1" 200 -
+2024-12-10 16:07:27,516 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2024-12-10 16:07:27,516 - [33mPress CTRL+C to quit[0m
+2024-12-10 16:07:27,516 -  * Restarting with stat
+2024-12-10 16:07:27,655 -  * Debugger is active!
+2024-12-10 16:07:27,656 -  * Debugger PIN: 130-705-631
+2024-12-10 16:07:31,240 - Time: 2024-12-10 16:07:31, Endpoint: /test, Method: POST, Status: Success, Data: {'text': ' Hello World! 2024-12-10 16:07:31.235771'}
+2024-12-10 16:07:31,241 - 127.0.0.1 - - [10/Dec/2024 16:07:31] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:07:45,712 -  * Detected change in '/home/rafad900/UCDavis/ECS235A/ECS235-Project/main.py', reloading
+2024-12-10 16:07:45,744 -  * Restarting with stat
+2024-12-10 16:07:45,918 -  * Debugger is active!
+2024-12-10 16:07:45,919 -  * Debugger PIN: 130-705-631
+2024-12-10 16:08:49,131 -  * Detected change in '/home/rafad900/UCDavis/ECS235A/ECS235-Project/tests.py', reloading
+2024-12-10 16:08:49,158 -  * Restarting with stat
+2024-12-10 16:08:49,420 -  * Debugger is active!
+2024-12-10 16:08:49,420 -  * Debugger PIN: 130-705-631
+2024-12-10 16:08:52,433 -  * Detected change in '/home/rafad900/UCDavis/ECS235A/ECS235-Project/tests.py', reloading
+2024-12-10 16:08:52,458 -  * Restarting with stat
+2024-12-10 16:08:52,591 -  * Debugger is active!
+2024-12-10 16:08:52,591 -  * Debugger PIN: 130-705-631
+2024-12-10 16:08:59,618 -  * Detected change in '/home/rafad900/UCDavis/ECS235A/ECS235-Project/tests.py', reloading
+2024-12-10 16:08:59,651 -  * Restarting with stat
+2024-12-10 16:08:59,802 -  * Debugger is active!
+2024-12-10 16:08:59,802 -  * Debugger PIN: 130-705-631
+2024-12-10 16:09:02,908 - Time: 2024-12-10 16:09:02, Endpoint: /test, Method: POST, Status: Success, Data: {'text': ' Hello World! 2024-12-10 16:09:02.905775'}
+2024-12-10 16:09:02,909 - 127.0.0.1 - - [10/Dec/2024 16:09:02] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:09:02,911 - Time: 2024-12-10 16:09:02, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'a'}
+2024-12-10 16:09:02,911 - 127.0.0.1 - - [10/Dec/2024 16:09:02] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:09:02,913 - Time: 2024-12-10 16:09:02, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'ab'}
+2024-12-10 16:09:02,913 - 127.0.0.1 - - [10/Dec/2024 16:09:02] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:09:02,914 - Time: 2024-12-10 16:09:02, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abc'}
+2024-12-10 16:09:02,915 - 127.0.0.1 - - [10/Dec/2024 16:09:02] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:09:02,916 - Time: 2024-12-10 16:09:02, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcd'}
+2024-12-10 16:09:02,917 - 127.0.0.1 - - [10/Dec/2024 16:09:02] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:09:02,918 - Time: 2024-12-10 16:09:02, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcde'}
+2024-12-10 16:09:02,919 - 127.0.0.1 - - [10/Dec/2024 16:09:02] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:09:02,920 - Time: 2024-12-10 16:09:02, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdef'}
+2024-12-10 16:09:02,921 - 127.0.0.1 - - [10/Dec/2024 16:09:02] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:09:02,922 - Time: 2024-12-10 16:09:02, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefg'}
+2024-12-10 16:09:02,922 - 127.0.0.1 - - [10/Dec/2024 16:09:02] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:09:02,924 - Time: 2024-12-10 16:09:02, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefgh'}
+2024-12-10 16:09:02,925 - 127.0.0.1 - - [10/Dec/2024 16:09:02] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:09:02,926 - Time: 2024-12-10 16:09:02, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghi'}
+2024-12-10 16:09:02,927 - 127.0.0.1 - - [10/Dec/2024 16:09:02] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:09:02,929 - Time: 2024-12-10 16:09:02, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghij'}
+2024-12-10 16:09:02,929 - 127.0.0.1 - - [10/Dec/2024 16:09:02] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:09:02,931 - Time: 2024-12-10 16:09:02, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijk'}
+2024-12-10 16:09:02,931 - 127.0.0.1 - - [10/Dec/2024 16:09:02] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:09:02,933 - Time: 2024-12-10 16:09:02, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijkl'}
+2024-12-10 16:09:02,943 - 127.0.0.1 - - [10/Dec/2024 16:09:02] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:09:02,945 - Time: 2024-12-10 16:09:02, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklm'}
+2024-12-10 16:09:02,945 - 127.0.0.1 - - [10/Dec/2024 16:09:02] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:09:02,948 - Time: 2024-12-10 16:09:02, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmn'}
+2024-12-10 16:09:02,948 - 127.0.0.1 - - [10/Dec/2024 16:09:02] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:09:02,949 - Time: 2024-12-10 16:09:02, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmno'}
+2024-12-10 16:09:02,949 - 127.0.0.1 - - [10/Dec/2024 16:09:02] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:09:02,950 - Time: 2024-12-10 16:09:02, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnop'}
+2024-12-10 16:09:02,950 - 127.0.0.1 - - [10/Dec/2024 16:09:02] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:09:02,952 - Time: 2024-12-10 16:09:02, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopq'}
+2024-12-10 16:09:02,952 - 127.0.0.1 - - [10/Dec/2024 16:09:02] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:09:02,953 - Time: 2024-12-10 16:09:02, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqr'}
+2024-12-10 16:09:02,954 - 127.0.0.1 - - [10/Dec/2024 16:09:02] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:09:02,955 - Time: 2024-12-10 16:09:02, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrs'}
+2024-12-10 16:09:02,955 - 127.0.0.1 - - [10/Dec/2024 16:09:02] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:09:02,956 - Time: 2024-12-10 16:09:02, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrst'}
+2024-12-10 16:09:02,957 - 127.0.0.1 - - [10/Dec/2024 16:09:02] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:09:02,958 - Time: 2024-12-10 16:09:02, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstu'}
+2024-12-10 16:09:02,958 - 127.0.0.1 - - [10/Dec/2024 16:09:02] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:09:02,959 - Time: 2024-12-10 16:09:02, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuv'}
+2024-12-10 16:09:02,959 - 127.0.0.1 - - [10/Dec/2024 16:09:02] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:09:02,961 - Time: 2024-12-10 16:09:02, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvw'}
+2024-12-10 16:09:02,961 - 127.0.0.1 - - [10/Dec/2024 16:09:02] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:09:02,962 - Time: 2024-12-10 16:09:02, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwx'}
+2024-12-10 16:09:02,962 - 127.0.0.1 - - [10/Dec/2024 16:09:02] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:09:02,964 - Time: 2024-12-10 16:09:02, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwxy'}
+2024-12-10 16:09:02,965 - 127.0.0.1 - - [10/Dec/2024 16:09:02] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:09:02,967 - Time: 2024-12-10 16:09:02, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwxyz'}
+2024-12-10 16:09:02,967 - 127.0.0.1 - - [10/Dec/2024 16:09:02] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:09:10,708 - 127.0.0.1 - - [10/Dec/2024 16:09:10] "[31m[1mGET /get-data HTTP/1.1[0m" 415 -
+2024-12-10 16:11:10,273 -  * Detected change in '/home/rafad900/UCDavis/ECS235A/ECS235-Project/main.py', reloading
+2024-12-10 16:11:10,301 -  * Restarting with stat
+2024-12-10 16:11:10,558 -  * Debugger is active!
+2024-12-10 16:11:10,559 -  * Debugger PIN: 130-705-631
+2024-12-10 16:11:14,274 - Time: 2024-12-10 16:11:14, Endpoint: /test, Method: POST, Status: Success, Data: {'text': ' Hello World! 2024-12-10 16:11:14.271851'}
+2024-12-10 16:11:14,275 - 127.0.0.1 - - [10/Dec/2024 16:11:14] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:11:14,277 - Time: 2024-12-10 16:11:14, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'a'}
+2024-12-10 16:11:14,277 - 127.0.0.1 - - [10/Dec/2024 16:11:14] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:14,278 - Time: 2024-12-10 16:11:14, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'ab'}
+2024-12-10 16:11:14,279 - 127.0.0.1 - - [10/Dec/2024 16:11:14] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:14,280 - Time: 2024-12-10 16:11:14, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abc'}
+2024-12-10 16:11:14,280 - 127.0.0.1 - - [10/Dec/2024 16:11:14] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:14,281 - Time: 2024-12-10 16:11:14, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcd'}
+2024-12-10 16:11:14,281 - 127.0.0.1 - - [10/Dec/2024 16:11:14] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:14,283 - Time: 2024-12-10 16:11:14, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcde'}
+2024-12-10 16:11:14,283 - 127.0.0.1 - - [10/Dec/2024 16:11:14] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:14,284 - Time: 2024-12-10 16:11:14, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdef'}
+2024-12-10 16:11:14,284 - 127.0.0.1 - - [10/Dec/2024 16:11:14] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:14,285 - Time: 2024-12-10 16:11:14, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefg'}
+2024-12-10 16:11:14,286 - 127.0.0.1 - - [10/Dec/2024 16:11:14] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:14,287 - Time: 2024-12-10 16:11:14, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefgh'}
+2024-12-10 16:11:14,287 - 127.0.0.1 - - [10/Dec/2024 16:11:14] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:14,289 - Time: 2024-12-10 16:11:14, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghi'}
+2024-12-10 16:11:14,289 - 127.0.0.1 - - [10/Dec/2024 16:11:14] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:14,291 - Time: 2024-12-10 16:11:14, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghij'}
+2024-12-10 16:11:14,291 - 127.0.0.1 - - [10/Dec/2024 16:11:14] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:14,293 - Time: 2024-12-10 16:11:14, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijk'}
+2024-12-10 16:11:14,293 - 127.0.0.1 - - [10/Dec/2024 16:11:14] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:14,295 - Time: 2024-12-10 16:11:14, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijkl'}
+2024-12-10 16:11:14,303 - 127.0.0.1 - - [10/Dec/2024 16:11:14] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:14,305 - Time: 2024-12-10 16:11:14, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklm'}
+2024-12-10 16:11:14,305 - 127.0.0.1 - - [10/Dec/2024 16:11:14] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:14,306 - Time: 2024-12-10 16:11:14, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmn'}
+2024-12-10 16:11:14,306 - 127.0.0.1 - - [10/Dec/2024 16:11:14] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:14,308 - Time: 2024-12-10 16:11:14, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmno'}
+2024-12-10 16:11:14,308 - 127.0.0.1 - - [10/Dec/2024 16:11:14] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:14,309 - Time: 2024-12-10 16:11:14, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnop'}
+2024-12-10 16:11:14,309 - 127.0.0.1 - - [10/Dec/2024 16:11:14] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:14,310 - Time: 2024-12-10 16:11:14, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopq'}
+2024-12-10 16:11:14,311 - 127.0.0.1 - - [10/Dec/2024 16:11:14] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:14,312 - Time: 2024-12-10 16:11:14, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqr'}
+2024-12-10 16:11:14,312 - 127.0.0.1 - - [10/Dec/2024 16:11:14] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:14,313 - Time: 2024-12-10 16:11:14, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrs'}
+2024-12-10 16:11:14,313 - 127.0.0.1 - - [10/Dec/2024 16:11:14] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:14,315 - Time: 2024-12-10 16:11:14, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrst'}
+2024-12-10 16:11:14,315 - 127.0.0.1 - - [10/Dec/2024 16:11:14] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:14,316 - Time: 2024-12-10 16:11:14, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstu'}
+2024-12-10 16:11:14,316 - 127.0.0.1 - - [10/Dec/2024 16:11:14] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:14,317 - Time: 2024-12-10 16:11:14, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuv'}
+2024-12-10 16:11:14,317 - 127.0.0.1 - - [10/Dec/2024 16:11:14] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:14,318 - Time: 2024-12-10 16:11:14, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvw'}
+2024-12-10 16:11:14,318 - 127.0.0.1 - - [10/Dec/2024 16:11:14] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:14,320 - Time: 2024-12-10 16:11:14, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwx'}
+2024-12-10 16:11:14,320 - 127.0.0.1 - - [10/Dec/2024 16:11:14] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:14,321 - Time: 2024-12-10 16:11:14, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwxy'}
+2024-12-10 16:11:14,321 - 127.0.0.1 - - [10/Dec/2024 16:11:14] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:14,322 - Time: 2024-12-10 16:11:14, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwxyz'}
+2024-12-10 16:11:14,322 - 127.0.0.1 - - [10/Dec/2024 16:11:14] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:51,691 -  * Detected change in '/home/rafad900/UCDavis/ECS235A/ECS235-Project/main.py', reloading
+2024-12-10 16:11:51,721 -  * Restarting with stat
+2024-12-10 16:11:51,987 -  * Debugger is active!
+2024-12-10 16:11:51,988 -  * Debugger PIN: 130-705-631
+2024-12-10 16:11:53,998 -  * Detected change in '/home/rafad900/UCDavis/ECS235A/ECS235-Project/main.py', reloading
+2024-12-10 16:11:54,027 -  * Restarting with stat
+2024-12-10 16:11:54,188 -  * Debugger is active!
+2024-12-10 16:11:54,189 -  * Debugger PIN: 130-705-631
+2024-12-10 16:11:57,867 - Time: 2024-12-10 16:11:57, Endpoint: /test, Method: POST, Status: Success, Data: {'text': ' Hello World! 2024-12-10 16:11:57.865508'}
+2024-12-10 16:11:57,868 - 127.0.0.1 - - [10/Dec/2024 16:11:57] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:11:57,870 - Time: 2024-12-10 16:11:57, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'a'}
+2024-12-10 16:11:57,870 - 127.0.0.1 - - [10/Dec/2024 16:11:57] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:57,871 - Time: 2024-12-10 16:11:57, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'ab'}
+2024-12-10 16:11:57,871 - 127.0.0.1 - - [10/Dec/2024 16:11:57] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:57,872 - Time: 2024-12-10 16:11:57, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abc'}
+2024-12-10 16:11:57,873 - 127.0.0.1 - - [10/Dec/2024 16:11:57] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:57,874 - Time: 2024-12-10 16:11:57, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcd'}
+2024-12-10 16:11:57,874 - 127.0.0.1 - - [10/Dec/2024 16:11:57] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:57,876 - Time: 2024-12-10 16:11:57, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcde'}
+2024-12-10 16:11:57,876 - 127.0.0.1 - - [10/Dec/2024 16:11:57] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:57,877 - Time: 2024-12-10 16:11:57, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdef'}
+2024-12-10 16:11:57,877 - 127.0.0.1 - - [10/Dec/2024 16:11:57] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:57,879 - Time: 2024-12-10 16:11:57, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefg'}
+2024-12-10 16:11:57,879 - 127.0.0.1 - - [10/Dec/2024 16:11:57] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:57,881 - Time: 2024-12-10 16:11:57, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefgh'}
+2024-12-10 16:11:57,881 - 127.0.0.1 - - [10/Dec/2024 16:11:57] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:57,882 - Time: 2024-12-10 16:11:57, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghi'}
+2024-12-10 16:11:57,882 - 127.0.0.1 - - [10/Dec/2024 16:11:57] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:57,883 - Time: 2024-12-10 16:11:57, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghij'}
+2024-12-10 16:11:57,884 - 127.0.0.1 - - [10/Dec/2024 16:11:57] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:57,885 - Time: 2024-12-10 16:11:57, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijk'}
+2024-12-10 16:11:57,885 - 127.0.0.1 - - [10/Dec/2024 16:11:57] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:57,887 - Time: 2024-12-10 16:11:57, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijkl'}
+2024-12-10 16:11:57,896 - 127.0.0.1 - - [10/Dec/2024 16:11:57] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:57,898 - Time: 2024-12-10 16:11:57, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklm'}
+2024-12-10 16:11:57,898 - 127.0.0.1 - - [10/Dec/2024 16:11:57] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:57,899 - Time: 2024-12-10 16:11:57, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmn'}
+2024-12-10 16:11:57,899 - 127.0.0.1 - - [10/Dec/2024 16:11:57] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:57,901 - Time: 2024-12-10 16:11:57, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmno'}
+2024-12-10 16:11:57,901 - 127.0.0.1 - - [10/Dec/2024 16:11:57] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:57,902 - Time: 2024-12-10 16:11:57, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnop'}
+2024-12-10 16:11:57,903 - 127.0.0.1 - - [10/Dec/2024 16:11:57] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:57,904 - Time: 2024-12-10 16:11:57, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopq'}
+2024-12-10 16:11:57,904 - 127.0.0.1 - - [10/Dec/2024 16:11:57] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:57,905 - Time: 2024-12-10 16:11:57, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqr'}
+2024-12-10 16:11:57,906 - 127.0.0.1 - - [10/Dec/2024 16:11:57] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:57,907 - Time: 2024-12-10 16:11:57, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrs'}
+2024-12-10 16:11:57,907 - 127.0.0.1 - - [10/Dec/2024 16:11:57] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:57,908 - Time: 2024-12-10 16:11:57, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrst'}
+2024-12-10 16:11:57,909 - 127.0.0.1 - - [10/Dec/2024 16:11:57] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:57,910 - Time: 2024-12-10 16:11:57, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstu'}
+2024-12-10 16:11:57,910 - 127.0.0.1 - - [10/Dec/2024 16:11:57] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:57,911 - Time: 2024-12-10 16:11:57, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuv'}
+2024-12-10 16:11:57,911 - 127.0.0.1 - - [10/Dec/2024 16:11:57] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:57,912 - Time: 2024-12-10 16:11:57, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvw'}
+2024-12-10 16:11:57,913 - 127.0.0.1 - - [10/Dec/2024 16:11:57] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:57,914 - Time: 2024-12-10 16:11:57, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwx'}
+2024-12-10 16:11:57,915 - 127.0.0.1 - - [10/Dec/2024 16:11:57] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:57,916 - Time: 2024-12-10 16:11:57, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwxy'}
+2024-12-10 16:11:57,916 - 127.0.0.1 - - [10/Dec/2024 16:11:57] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:11:57,917 - Time: 2024-12-10 16:11:57, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwxyz'}
+2024-12-10 16:11:57,918 - 127.0.0.1 - - [10/Dec/2024 16:11:57] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:01,075 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2024-12-10 16:12:01,075 - [33mPress CTRL+C to quit[0m
+2024-12-10 16:12:01,075 -  * Restarting with stat
+2024-12-10 16:12:01,218 -  * Debugger is active!
+2024-12-10 16:12:01,218 -  * Debugger PIN: 130-705-631
+2024-12-10 16:12:04,033 - Time: 2024-12-10 16:12:04, Endpoint: /test, Method: POST, Status: Success, Data: {'text': ' Hello World! 2024-12-10 16:12:04.031868'}
+2024-12-10 16:12:04,035 - 127.0.0.1 - - [10/Dec/2024 16:12:04] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:12:04,037 - Time: 2024-12-10 16:12:04, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'a'}
+2024-12-10 16:12:04,037 - 127.0.0.1 - - [10/Dec/2024 16:12:04] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:04,038 - Time: 2024-12-10 16:12:04, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'ab'}
+2024-12-10 16:12:04,039 - 127.0.0.1 - - [10/Dec/2024 16:12:04] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:04,040 - Time: 2024-12-10 16:12:04, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abc'}
+2024-12-10 16:12:04,041 - 127.0.0.1 - - [10/Dec/2024 16:12:04] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:04,042 - Time: 2024-12-10 16:12:04, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcd'}
+2024-12-10 16:12:04,042 - 127.0.0.1 - - [10/Dec/2024 16:12:04] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:04,044 - Time: 2024-12-10 16:12:04, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcde'}
+2024-12-10 16:12:04,044 - 127.0.0.1 - - [10/Dec/2024 16:12:04] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:04,046 - Time: 2024-12-10 16:12:04, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdef'}
+2024-12-10 16:12:04,046 - 127.0.0.1 - - [10/Dec/2024 16:12:04] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:04,048 - Time: 2024-12-10 16:12:04, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefg'}
+2024-12-10 16:12:04,048 - 127.0.0.1 - - [10/Dec/2024 16:12:04] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:04,050 - Time: 2024-12-10 16:12:04, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefgh'}
+2024-12-10 16:12:04,050 - 127.0.0.1 - - [10/Dec/2024 16:12:04] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:04,051 - Time: 2024-12-10 16:12:04, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghi'}
+2024-12-10 16:12:04,052 - 127.0.0.1 - - [10/Dec/2024 16:12:04] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:04,053 - Time: 2024-12-10 16:12:04, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghij'}
+2024-12-10 16:12:04,053 - 127.0.0.1 - - [10/Dec/2024 16:12:04] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:04,055 - Time: 2024-12-10 16:12:04, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijk'}
+2024-12-10 16:12:04,055 - 127.0.0.1 - - [10/Dec/2024 16:12:04] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:04,057 - Time: 2024-12-10 16:12:04, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijkl'}
+2024-12-10 16:12:04,067 - 127.0.0.1 - - [10/Dec/2024 16:12:04] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:04,069 - Time: 2024-12-10 16:12:04, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklm'}
+2024-12-10 16:12:04,069 - 127.0.0.1 - - [10/Dec/2024 16:12:04] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:04,071 - Time: 2024-12-10 16:12:04, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmn'}
+2024-12-10 16:12:04,071 - 127.0.0.1 - - [10/Dec/2024 16:12:04] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:04,073 - Time: 2024-12-10 16:12:04, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmno'}
+2024-12-10 16:12:04,073 - 127.0.0.1 - - [10/Dec/2024 16:12:04] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:04,075 - Time: 2024-12-10 16:12:04, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnop'}
+2024-12-10 16:12:04,075 - 127.0.0.1 - - [10/Dec/2024 16:12:04] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:04,077 - Time: 2024-12-10 16:12:04, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopq'}
+2024-12-10 16:12:04,077 - 127.0.0.1 - - [10/Dec/2024 16:12:04] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:04,079 - Time: 2024-12-10 16:12:04, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqr'}
+2024-12-10 16:12:04,079 - 127.0.0.1 - - [10/Dec/2024 16:12:04] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:04,081 - Time: 2024-12-10 16:12:04, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrs'}
+2024-12-10 16:12:04,081 - 127.0.0.1 - - [10/Dec/2024 16:12:04] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:04,083 - Time: 2024-12-10 16:12:04, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrst'}
+2024-12-10 16:12:04,083 - 127.0.0.1 - - [10/Dec/2024 16:12:04] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:04,085 - Time: 2024-12-10 16:12:04, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstu'}
+2024-12-10 16:12:04,085 - 127.0.0.1 - - [10/Dec/2024 16:12:04] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:04,086 - Time: 2024-12-10 16:12:04, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuv'}
+2024-12-10 16:12:04,086 - 127.0.0.1 - - [10/Dec/2024 16:12:04] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:04,088 - Time: 2024-12-10 16:12:04, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvw'}
+2024-12-10 16:12:04,089 - 127.0.0.1 - - [10/Dec/2024 16:12:04] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:04,090 - Time: 2024-12-10 16:12:04, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwx'}
+2024-12-10 16:12:04,091 - 127.0.0.1 - - [10/Dec/2024 16:12:04] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:04,092 - Time: 2024-12-10 16:12:04, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwxy'}
+2024-12-10 16:12:04,092 - 127.0.0.1 - - [10/Dec/2024 16:12:04] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:04,095 - Time: 2024-12-10 16:12:04, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwxyz'}
+2024-12-10 16:12:04,095 - 127.0.0.1 - - [10/Dec/2024 16:12:04] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:11,249 -  * Detected change in '/home/rafad900/UCDavis/ECS235A/ECS235-Project/main.py', reloading
+2024-12-10 16:12:11,273 -  * Restarting with stat
+2024-12-10 16:12:11,415 -  * Debugger is active!
+2024-12-10 16:12:11,416 -  * Debugger PIN: 130-705-631
+2024-12-10 16:12:13,063 - Time: 2024-12-10 16:12:13, Endpoint: /test, Method: POST, Status: Success, Data: {'text': ' Hello World! 2024-12-10 16:12:13.061189'}
+2024-12-10 16:12:13,064 - 127.0.0.1 - - [10/Dec/2024 16:12:13] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:12:13,065 - Time: 2024-12-10 16:12:13, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'a'}
+2024-12-10 16:12:13,066 - 127.0.0.1 - - [10/Dec/2024 16:12:13] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:13,068 - Time: 2024-12-10 16:12:13, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'ab'}
+2024-12-10 16:12:13,068 - 127.0.0.1 - - [10/Dec/2024 16:12:13] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:13,069 - Time: 2024-12-10 16:12:13, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abc'}
+2024-12-10 16:12:13,069 - 127.0.0.1 - - [10/Dec/2024 16:12:13] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:13,071 - Time: 2024-12-10 16:12:13, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcd'}
+2024-12-10 16:12:13,071 - 127.0.0.1 - - [10/Dec/2024 16:12:13] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:13,072 - Time: 2024-12-10 16:12:13, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcde'}
+2024-12-10 16:12:13,072 - 127.0.0.1 - - [10/Dec/2024 16:12:13] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:13,074 - Time: 2024-12-10 16:12:13, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdef'}
+2024-12-10 16:12:13,074 - 127.0.0.1 - - [10/Dec/2024 16:12:13] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:13,076 - Time: 2024-12-10 16:12:13, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefg'}
+2024-12-10 16:12:13,076 - 127.0.0.1 - - [10/Dec/2024 16:12:13] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:13,078 - Time: 2024-12-10 16:12:13, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefgh'}
+2024-12-10 16:12:13,078 - 127.0.0.1 - - [10/Dec/2024 16:12:13] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:13,080 - Time: 2024-12-10 16:12:13, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghi'}
+2024-12-10 16:12:13,080 - 127.0.0.1 - - [10/Dec/2024 16:12:13] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:13,081 - Time: 2024-12-10 16:12:13, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghij'}
+2024-12-10 16:12:13,081 - 127.0.0.1 - - [10/Dec/2024 16:12:13] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:13,083 - Time: 2024-12-10 16:12:13, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijk'}
+2024-12-10 16:12:13,083 - 127.0.0.1 - - [10/Dec/2024 16:12:13] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:13,084 - Time: 2024-12-10 16:12:13, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijkl'}
+2024-12-10 16:12:13,094 - 127.0.0.1 - - [10/Dec/2024 16:12:13] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:13,096 - Time: 2024-12-10 16:12:13, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklm'}
+2024-12-10 16:12:13,096 - 127.0.0.1 - - [10/Dec/2024 16:12:13] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:13,097 - Time: 2024-12-10 16:12:13, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmn'}
+2024-12-10 16:12:13,098 - 127.0.0.1 - - [10/Dec/2024 16:12:13] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:13,099 - Time: 2024-12-10 16:12:13, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmno'}
+2024-12-10 16:12:13,099 - 127.0.0.1 - - [10/Dec/2024 16:12:13] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:13,101 - Time: 2024-12-10 16:12:13, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnop'}
+2024-12-10 16:12:13,101 - 127.0.0.1 - - [10/Dec/2024 16:12:13] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:13,102 - Time: 2024-12-10 16:12:13, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopq'}
+2024-12-10 16:12:13,102 - 127.0.0.1 - - [10/Dec/2024 16:12:13] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:13,103 - Time: 2024-12-10 16:12:13, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqr'}
+2024-12-10 16:12:13,103 - 127.0.0.1 - - [10/Dec/2024 16:12:13] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:13,105 - Time: 2024-12-10 16:12:13, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrs'}
+2024-12-10 16:12:13,105 - 127.0.0.1 - - [10/Dec/2024 16:12:13] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:13,107 - Time: 2024-12-10 16:12:13, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrst'}
+2024-12-10 16:12:13,107 - 127.0.0.1 - - [10/Dec/2024 16:12:13] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:13,108 - Time: 2024-12-10 16:12:13, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstu'}
+2024-12-10 16:12:13,109 - 127.0.0.1 - - [10/Dec/2024 16:12:13] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:13,110 - Time: 2024-12-10 16:12:13, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuv'}
+2024-12-10 16:12:13,110 - 127.0.0.1 - - [10/Dec/2024 16:12:13] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:13,111 - Time: 2024-12-10 16:12:13, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvw'}
+2024-12-10 16:12:13,112 - 127.0.0.1 - - [10/Dec/2024 16:12:13] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:13,113 - Time: 2024-12-10 16:12:13, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwx'}
+2024-12-10 16:12:13,113 - 127.0.0.1 - - [10/Dec/2024 16:12:13] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:13,115 - Time: 2024-12-10 16:12:13, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwxy'}
+2024-12-10 16:12:13,115 - 127.0.0.1 - - [10/Dec/2024 16:12:13] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:13,117 - Time: 2024-12-10 16:12:13, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwxyz'}
+2024-12-10 16:12:13,117 - 127.0.0.1 - - [10/Dec/2024 16:12:13] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:15,013 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2024-12-10 16:12:15,013 - [33mPress CTRL+C to quit[0m
+2024-12-10 16:12:15,013 -  * Restarting with stat
+2024-12-10 16:12:15,142 -  * Debugger is active!
+2024-12-10 16:12:15,142 -  * Debugger PIN: 130-705-631
+2024-12-10 16:12:17,076 - Time: 2024-12-10 16:12:17, Endpoint: /test, Method: POST, Status: Success, Data: {'text': ' Hello World! 2024-12-10 16:12:17.074673'}
+2024-12-10 16:12:17,078 - 127.0.0.1 - - [10/Dec/2024 16:12:17] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:12:17,080 - Time: 2024-12-10 16:12:17, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'a'}
+2024-12-10 16:12:17,080 - 127.0.0.1 - - [10/Dec/2024 16:12:17] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:17,082 - Time: 2024-12-10 16:12:17, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'ab'}
+2024-12-10 16:12:17,082 - 127.0.0.1 - - [10/Dec/2024 16:12:17] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:17,084 - Time: 2024-12-10 16:12:17, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abc'}
+2024-12-10 16:12:17,084 - 127.0.0.1 - - [10/Dec/2024 16:12:17] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:17,086 - Time: 2024-12-10 16:12:17, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcd'}
+2024-12-10 16:12:17,086 - 127.0.0.1 - - [10/Dec/2024 16:12:17] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:17,087 - Time: 2024-12-10 16:12:17, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcde'}
+2024-12-10 16:12:17,088 - 127.0.0.1 - - [10/Dec/2024 16:12:17] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:17,089 - Time: 2024-12-10 16:12:17, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdef'}
+2024-12-10 16:12:17,089 - 127.0.0.1 - - [10/Dec/2024 16:12:17] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:17,091 - Time: 2024-12-10 16:12:17, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefg'}
+2024-12-10 16:12:17,091 - 127.0.0.1 - - [10/Dec/2024 16:12:17] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:17,093 - Time: 2024-12-10 16:12:17, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefgh'}
+2024-12-10 16:12:17,093 - 127.0.0.1 - - [10/Dec/2024 16:12:17] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:17,094 - Time: 2024-12-10 16:12:17, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghi'}
+2024-12-10 16:12:17,094 - 127.0.0.1 - - [10/Dec/2024 16:12:17] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:17,096 - Time: 2024-12-10 16:12:17, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghij'}
+2024-12-10 16:12:17,096 - 127.0.0.1 - - [10/Dec/2024 16:12:17] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:17,097 - Time: 2024-12-10 16:12:17, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijk'}
+2024-12-10 16:12:17,097 - 127.0.0.1 - - [10/Dec/2024 16:12:17] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:17,099 - Time: 2024-12-10 16:12:17, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijkl'}
+2024-12-10 16:12:17,108 - 127.0.0.1 - - [10/Dec/2024 16:12:17] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:17,110 - Time: 2024-12-10 16:12:17, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklm'}
+2024-12-10 16:12:17,110 - 127.0.0.1 - - [10/Dec/2024 16:12:17] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:17,112 - Time: 2024-12-10 16:12:17, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmn'}
+2024-12-10 16:12:17,112 - 127.0.0.1 - - [10/Dec/2024 16:12:17] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:17,114 - Time: 2024-12-10 16:12:17, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmno'}
+2024-12-10 16:12:17,114 - 127.0.0.1 - - [10/Dec/2024 16:12:17] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:17,115 - Time: 2024-12-10 16:12:17, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnop'}
+2024-12-10 16:12:17,116 - 127.0.0.1 - - [10/Dec/2024 16:12:17] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:17,117 - Time: 2024-12-10 16:12:17, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopq'}
+2024-12-10 16:12:17,117 - 127.0.0.1 - - [10/Dec/2024 16:12:17] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:17,118 - Time: 2024-12-10 16:12:17, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqr'}
+2024-12-10 16:12:17,119 - 127.0.0.1 - - [10/Dec/2024 16:12:17] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:17,120 - Time: 2024-12-10 16:12:17, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrs'}
+2024-12-10 16:12:17,120 - 127.0.0.1 - - [10/Dec/2024 16:12:17] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:17,121 - Time: 2024-12-10 16:12:17, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrst'}
+2024-12-10 16:12:17,121 - 127.0.0.1 - - [10/Dec/2024 16:12:17] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:17,123 - Time: 2024-12-10 16:12:17, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstu'}
+2024-12-10 16:12:17,123 - 127.0.0.1 - - [10/Dec/2024 16:12:17] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:17,124 - Time: 2024-12-10 16:12:17, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuv'}
+2024-12-10 16:12:17,125 - 127.0.0.1 - - [10/Dec/2024 16:12:17] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:17,126 - Time: 2024-12-10 16:12:17, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvw'}
+2024-12-10 16:12:17,126 - 127.0.0.1 - - [10/Dec/2024 16:12:17] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:17,127 - Time: 2024-12-10 16:12:17, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwx'}
+2024-12-10 16:12:17,127 - 127.0.0.1 - - [10/Dec/2024 16:12:17] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:17,129 - Time: 2024-12-10 16:12:17, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwxy'}
+2024-12-10 16:12:17,130 - 127.0.0.1 - - [10/Dec/2024 16:12:17] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:17,131 - Time: 2024-12-10 16:12:17, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwxyz'}
+2024-12-10 16:12:17,131 - 127.0.0.1 - - [10/Dec/2024 16:12:17] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:12:59,284 -  * Detected change in '/home/rafad900/UCDavis/ECS235A/ECS235-Project/main.py', reloading
+2024-12-10 16:12:59,325 -  * Restarting with stat
+2024-12-10 16:12:59,617 -  * Debugger is active!
+2024-12-10 16:12:59,617 -  * Debugger PIN: 130-705-631
+2024-12-10 16:13:01,628 -  * Detected change in '/home/rafad900/UCDavis/ECS235A/ECS235-Project/tests.py', reloading
+2024-12-10 16:13:01,658 -  * Restarting with stat
+2024-12-10 16:13:01,802 -  * Debugger is active!
+2024-12-10 16:13:01,803 -  * Debugger PIN: 130-705-631
+2024-12-10 16:13:03,660 - Time: 2024-12-10 16:13:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'a'}
+2024-12-10 16:13:03,662 - 127.0.0.1 - - [10/Dec/2024 16:13:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:03,664 - Time: 2024-12-10 16:13:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'ab'}
+2024-12-10 16:13:03,664 - 127.0.0.1 - - [10/Dec/2024 16:13:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:03,666 - Time: 2024-12-10 16:13:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abc'}
+2024-12-10 16:13:03,667 - 127.0.0.1 - - [10/Dec/2024 16:13:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:03,668 - Time: 2024-12-10 16:13:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcd'}
+2024-12-10 16:13:03,669 - 127.0.0.1 - - [10/Dec/2024 16:13:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:03,671 - Time: 2024-12-10 16:13:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcde'}
+2024-12-10 16:13:03,671 - 127.0.0.1 - - [10/Dec/2024 16:13:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:03,674 - Time: 2024-12-10 16:13:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdef'}
+2024-12-10 16:13:03,674 - 127.0.0.1 - - [10/Dec/2024 16:13:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:03,677 - Time: 2024-12-10 16:13:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefg'}
+2024-12-10 16:13:03,677 - 127.0.0.1 - - [10/Dec/2024 16:13:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:03,679 - Time: 2024-12-10 16:13:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefgh'}
+2024-12-10 16:13:03,679 - 127.0.0.1 - - [10/Dec/2024 16:13:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:03,681 - Time: 2024-12-10 16:13:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghi'}
+2024-12-10 16:13:03,681 - 127.0.0.1 - - [10/Dec/2024 16:13:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:03,683 - Time: 2024-12-10 16:13:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghij'}
+2024-12-10 16:13:03,683 - 127.0.0.1 - - [10/Dec/2024 16:13:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:03,685 - Time: 2024-12-10 16:13:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijk'}
+2024-12-10 16:13:03,686 - 127.0.0.1 - - [10/Dec/2024 16:13:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:03,689 - Time: 2024-12-10 16:13:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijkl'}
+2024-12-10 16:13:03,689 - 127.0.0.1 - - [10/Dec/2024 16:13:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:03,691 - Time: 2024-12-10 16:13:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklm'}
+2024-12-10 16:13:03,691 - 127.0.0.1 - - [10/Dec/2024 16:13:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:03,703 - Time: 2024-12-10 16:13:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmn'}
+2024-12-10 16:13:03,703 - 127.0.0.1 - - [10/Dec/2024 16:13:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:03,705 - Time: 2024-12-10 16:13:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmno'}
+2024-12-10 16:13:03,705 - 127.0.0.1 - - [10/Dec/2024 16:13:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:03,707 - Time: 2024-12-10 16:13:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnop'}
+2024-12-10 16:13:03,707 - 127.0.0.1 - - [10/Dec/2024 16:13:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:03,708 - Time: 2024-12-10 16:13:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopq'}
+2024-12-10 16:13:03,709 - 127.0.0.1 - - [10/Dec/2024 16:13:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:03,710 - Time: 2024-12-10 16:13:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqr'}
+2024-12-10 16:13:03,710 - 127.0.0.1 - - [10/Dec/2024 16:13:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:03,712 - Time: 2024-12-10 16:13:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrs'}
+2024-12-10 16:13:03,712 - 127.0.0.1 - - [10/Dec/2024 16:13:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:03,713 - Time: 2024-12-10 16:13:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrst'}
+2024-12-10 16:13:03,713 - 127.0.0.1 - - [10/Dec/2024 16:13:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:03,715 - Time: 2024-12-10 16:13:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstu'}
+2024-12-10 16:13:03,715 - 127.0.0.1 - - [10/Dec/2024 16:13:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:03,717 - Time: 2024-12-10 16:13:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuv'}
+2024-12-10 16:13:03,717 - 127.0.0.1 - - [10/Dec/2024 16:13:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:03,718 - Time: 2024-12-10 16:13:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvw'}
+2024-12-10 16:13:03,718 - 127.0.0.1 - - [10/Dec/2024 16:13:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:03,720 - Time: 2024-12-10 16:13:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwx'}
+2024-12-10 16:13:03,720 - 127.0.0.1 - - [10/Dec/2024 16:13:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:03,722 - Time: 2024-12-10 16:13:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwxy'}
+2024-12-10 16:13:03,722 - 127.0.0.1 - - [10/Dec/2024 16:13:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:03,724 - Time: 2024-12-10 16:13:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwxyz'}
+2024-12-10 16:13:03,724 - 127.0.0.1 - - [10/Dec/2024 16:13:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:13,910 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2024-12-10 16:13:13,910 - [33mPress CTRL+C to quit[0m
+2024-12-10 16:13:13,910 -  * Restarting with stat
+2024-12-10 16:13:14,042 -  * Debugger is active!
+2024-12-10 16:13:14,043 -  * Debugger PIN: 130-705-631
+2024-12-10 16:13:46,156 -  * Detected change in '/home/rafad900/UCDavis/ECS235A/ECS235-Project/main.py', reloading
+2024-12-10 16:13:46,192 -  * Restarting with stat
+2024-12-10 16:13:46,332 -  * Debugger is active!
+2024-12-10 16:13:46,332 -  * Debugger PIN: 130-705-631
+2024-12-10 16:13:47,423 - Time: 2024-12-10 16:13:47, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'a'}
+2024-12-10 16:13:47,424 - 127.0.0.1 - - [10/Dec/2024 16:13:47] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:47,425 - Time: 2024-12-10 16:13:47, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'ab'}
+2024-12-10 16:13:47,426 - 127.0.0.1 - - [10/Dec/2024 16:13:47] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:47,427 - Time: 2024-12-10 16:13:47, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abc'}
+2024-12-10 16:13:47,428 - 127.0.0.1 - - [10/Dec/2024 16:13:47] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:47,429 - Time: 2024-12-10 16:13:47, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcd'}
+2024-12-10 16:13:47,429 - 127.0.0.1 - - [10/Dec/2024 16:13:47] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:47,431 - Time: 2024-12-10 16:13:47, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcde'}
+2024-12-10 16:13:47,431 - 127.0.0.1 - - [10/Dec/2024 16:13:47] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:47,432 - Time: 2024-12-10 16:13:47, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdef'}
+2024-12-10 16:13:47,432 - 127.0.0.1 - - [10/Dec/2024 16:13:47] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:47,434 - Time: 2024-12-10 16:13:47, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefg'}
+2024-12-10 16:13:47,434 - 127.0.0.1 - - [10/Dec/2024 16:13:47] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:47,436 - Time: 2024-12-10 16:13:47, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefgh'}
+2024-12-10 16:13:47,436 - 127.0.0.1 - - [10/Dec/2024 16:13:47] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:47,438 - Time: 2024-12-10 16:13:47, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghi'}
+2024-12-10 16:13:47,438 - 127.0.0.1 - - [10/Dec/2024 16:13:47] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:47,439 - Time: 2024-12-10 16:13:47, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghij'}
+2024-12-10 16:13:47,440 - 127.0.0.1 - - [10/Dec/2024 16:13:47] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:47,441 - Time: 2024-12-10 16:13:47, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijk'}
+2024-12-10 16:13:47,441 - 127.0.0.1 - - [10/Dec/2024 16:13:47] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:47,443 - Time: 2024-12-10 16:13:47, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijkl'}
+2024-12-10 16:13:47,443 - 127.0.0.1 - - [10/Dec/2024 16:13:47] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:47,445 - Time: 2024-12-10 16:13:47, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklm'}
+2024-12-10 16:13:47,445 - 127.0.0.1 - - [10/Dec/2024 16:13:47] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:47,456 - Time: 2024-12-10 16:13:47, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmn'}
+2024-12-10 16:13:47,456 - 127.0.0.1 - - [10/Dec/2024 16:13:47] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:47,458 - Time: 2024-12-10 16:13:47, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmno'}
+2024-12-10 16:13:47,459 - 127.0.0.1 - - [10/Dec/2024 16:13:47] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:47,460 - Time: 2024-12-10 16:13:47, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnop'}
+2024-12-10 16:13:47,460 - 127.0.0.1 - - [10/Dec/2024 16:13:47] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:47,462 - Time: 2024-12-10 16:13:47, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopq'}
+2024-12-10 16:13:47,462 - 127.0.0.1 - - [10/Dec/2024 16:13:47] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:47,463 - Time: 2024-12-10 16:13:47, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqr'}
+2024-12-10 16:13:47,463 - 127.0.0.1 - - [10/Dec/2024 16:13:47] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:47,464 - Time: 2024-12-10 16:13:47, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrs'}
+2024-12-10 16:13:47,465 - 127.0.0.1 - - [10/Dec/2024 16:13:47] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:47,466 - Time: 2024-12-10 16:13:47, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrst'}
+2024-12-10 16:13:47,466 - 127.0.0.1 - - [10/Dec/2024 16:13:47] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:47,467 - Time: 2024-12-10 16:13:47, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstu'}
+2024-12-10 16:13:47,468 - 127.0.0.1 - - [10/Dec/2024 16:13:47] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:47,469 - Time: 2024-12-10 16:13:47, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuv'}
+2024-12-10 16:13:47,469 - 127.0.0.1 - - [10/Dec/2024 16:13:47] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:47,470 - Time: 2024-12-10 16:13:47, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvw'}
+2024-12-10 16:13:47,470 - 127.0.0.1 - - [10/Dec/2024 16:13:47] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:47,471 - Time: 2024-12-10 16:13:47, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwx'}
+2024-12-10 16:13:47,472 - 127.0.0.1 - - [10/Dec/2024 16:13:47] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:47,473 - Time: 2024-12-10 16:13:47, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwxy'}
+2024-12-10 16:13:47,473 - 127.0.0.1 - - [10/Dec/2024 16:13:47] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:47,475 - Time: 2024-12-10 16:13:47, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwxyz'}
+2024-12-10 16:13:47,475 - 127.0.0.1 - - [10/Dec/2024 16:13:47] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:54,156 - Time: 2024-12-10 16:13:54, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'a'}
+2024-12-10 16:13:54,156 - 127.0.0.1 - - [10/Dec/2024 16:13:54] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:54,158 - Time: 2024-12-10 16:13:54, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'ab'}
+2024-12-10 16:13:54,158 - 127.0.0.1 - - [10/Dec/2024 16:13:54] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:54,160 - Time: 2024-12-10 16:13:54, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abc'}
+2024-12-10 16:13:54,160 - 127.0.0.1 - - [10/Dec/2024 16:13:54] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:54,162 - Time: 2024-12-10 16:13:54, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcd'}
+2024-12-10 16:13:54,162 - 127.0.0.1 - - [10/Dec/2024 16:13:54] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:54,163 - Time: 2024-12-10 16:13:54, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcde'}
+2024-12-10 16:13:54,163 - 127.0.0.1 - - [10/Dec/2024 16:13:54] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:54,165 - Time: 2024-12-10 16:13:54, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdef'}
+2024-12-10 16:13:54,165 - 127.0.0.1 - - [10/Dec/2024 16:13:54] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:54,168 - Time: 2024-12-10 16:13:54, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefg'}
+2024-12-10 16:13:54,168 - 127.0.0.1 - - [10/Dec/2024 16:13:54] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:54,170 - Time: 2024-12-10 16:13:54, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefgh'}
+2024-12-10 16:13:54,170 - 127.0.0.1 - - [10/Dec/2024 16:13:54] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:54,172 - Time: 2024-12-10 16:13:54, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghi'}
+2024-12-10 16:13:54,172 - 127.0.0.1 - - [10/Dec/2024 16:13:54] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:54,174 - Time: 2024-12-10 16:13:54, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghij'}
+2024-12-10 16:13:54,174 - 127.0.0.1 - - [10/Dec/2024 16:13:54] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:54,176 - Time: 2024-12-10 16:13:54, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijk'}
+2024-12-10 16:13:54,176 - 127.0.0.1 - - [10/Dec/2024 16:13:54] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:54,178 - Time: 2024-12-10 16:13:54, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijkl'}
+2024-12-10 16:13:54,178 - 127.0.0.1 - - [10/Dec/2024 16:13:54] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:54,179 - Time: 2024-12-10 16:13:54, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklm'}
+2024-12-10 16:13:54,180 - 127.0.0.1 - - [10/Dec/2024 16:13:54] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:54,182 - Time: 2024-12-10 16:13:54, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmn'}
+2024-12-10 16:13:54,182 - 127.0.0.1 - - [10/Dec/2024 16:13:54] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:54,184 - Time: 2024-12-10 16:13:54, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmno'}
+2024-12-10 16:13:54,184 - 127.0.0.1 - - [10/Dec/2024 16:13:54] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:54,186 - Time: 2024-12-10 16:13:54, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnop'}
+2024-12-10 16:13:54,186 - 127.0.0.1 - - [10/Dec/2024 16:13:54] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:54,188 - Time: 2024-12-10 16:13:54, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopq'}
+2024-12-10 16:13:54,188 - 127.0.0.1 - - [10/Dec/2024 16:13:54] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:54,189 - Time: 2024-12-10 16:13:54, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqr'}
+2024-12-10 16:13:54,190 - 127.0.0.1 - - [10/Dec/2024 16:13:54] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:54,191 - Time: 2024-12-10 16:13:54, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrs'}
+2024-12-10 16:13:54,191 - 127.0.0.1 - - [10/Dec/2024 16:13:54] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:54,193 - Time: 2024-12-10 16:13:54, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrst'}
+2024-12-10 16:13:54,193 - 127.0.0.1 - - [10/Dec/2024 16:13:54] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:54,194 - Time: 2024-12-10 16:13:54, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstu'}
+2024-12-10 16:13:54,195 - 127.0.0.1 - - [10/Dec/2024 16:13:54] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:54,196 - Time: 2024-12-10 16:13:54, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuv'}
+2024-12-10 16:13:54,196 - 127.0.0.1 - - [10/Dec/2024 16:13:54] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:54,197 - Time: 2024-12-10 16:13:54, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvw'}
+2024-12-10 16:13:54,198 - 127.0.0.1 - - [10/Dec/2024 16:13:54] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:54,199 - Time: 2024-12-10 16:13:54, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwx'}
+2024-12-10 16:13:54,199 - 127.0.0.1 - - [10/Dec/2024 16:13:54] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:54,201 - Time: 2024-12-10 16:13:54, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwxy'}
+2024-12-10 16:13:54,201 - 127.0.0.1 - - [10/Dec/2024 16:13:54] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:13:54,202 - Time: 2024-12-10 16:13:54, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwxyz'}
+2024-12-10 16:13:54,202 - 127.0.0.1 - - [10/Dec/2024 16:13:54] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:14:01,330 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2024-12-10 16:14:01,330 - [33mPress CTRL+C to quit[0m
+2024-12-10 16:14:01,330 -  * Restarting with stat
+2024-12-10 16:14:01,460 -  * Debugger is active!
+2024-12-10 16:14:01,461 -  * Debugger PIN: 130-705-631
+2024-12-10 16:14:03,240 - Time: 2024-12-10 16:14:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'a'}
+2024-12-10 16:14:03,241 - 127.0.0.1 - - [10/Dec/2024 16:14:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:14:03,243 - Time: 2024-12-10 16:14:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'ab'}
+2024-12-10 16:14:03,243 - 127.0.0.1 - - [10/Dec/2024 16:14:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:14:03,245 - Time: 2024-12-10 16:14:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abc'}
+2024-12-10 16:14:03,245 - 127.0.0.1 - - [10/Dec/2024 16:14:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:14:03,246 - Time: 2024-12-10 16:14:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcd'}
+2024-12-10 16:14:03,246 - 127.0.0.1 - - [10/Dec/2024 16:14:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:14:03,248 - Time: 2024-12-10 16:14:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcde'}
+2024-12-10 16:14:03,248 - 127.0.0.1 - - [10/Dec/2024 16:14:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:14:03,249 - Time: 2024-12-10 16:14:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdef'}
+2024-12-10 16:14:03,249 - 127.0.0.1 - - [10/Dec/2024 16:14:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:14:03,251 - Time: 2024-12-10 16:14:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefg'}
+2024-12-10 16:14:03,251 - 127.0.0.1 - - [10/Dec/2024 16:14:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:14:03,252 - Time: 2024-12-10 16:14:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefgh'}
+2024-12-10 16:14:03,253 - 127.0.0.1 - - [10/Dec/2024 16:14:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:14:03,255 - Time: 2024-12-10 16:14:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghi'}
+2024-12-10 16:14:03,255 - 127.0.0.1 - - [10/Dec/2024 16:14:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:14:03,256 - Time: 2024-12-10 16:14:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghij'}
+2024-12-10 16:14:03,257 - 127.0.0.1 - - [10/Dec/2024 16:14:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:14:03,258 - Time: 2024-12-10 16:14:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijk'}
+2024-12-10 16:14:03,258 - 127.0.0.1 - - [10/Dec/2024 16:14:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:14:03,260 - Time: 2024-12-10 16:14:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijkl'}
+2024-12-10 16:14:03,260 - 127.0.0.1 - - [10/Dec/2024 16:14:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:14:03,261 - Time: 2024-12-10 16:14:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklm'}
+2024-12-10 16:14:03,262 - 127.0.0.1 - - [10/Dec/2024 16:14:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:14:03,273 - Time: 2024-12-10 16:14:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmn'}
+2024-12-10 16:14:03,273 - 127.0.0.1 - - [10/Dec/2024 16:14:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:14:03,275 - Time: 2024-12-10 16:14:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmno'}
+2024-12-10 16:14:03,275 - 127.0.0.1 - - [10/Dec/2024 16:14:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:14:03,277 - Time: 2024-12-10 16:14:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnop'}
+2024-12-10 16:14:03,277 - 127.0.0.1 - - [10/Dec/2024 16:14:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:14:03,279 - Time: 2024-12-10 16:14:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopq'}
+2024-12-10 16:14:03,279 - 127.0.0.1 - - [10/Dec/2024 16:14:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:14:03,280 - Time: 2024-12-10 16:14:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqr'}
+2024-12-10 16:14:03,280 - 127.0.0.1 - - [10/Dec/2024 16:14:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:14:03,281 - Time: 2024-12-10 16:14:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrs'}
+2024-12-10 16:14:03,282 - 127.0.0.1 - - [10/Dec/2024 16:14:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:14:03,283 - Time: 2024-12-10 16:14:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrst'}
+2024-12-10 16:14:03,283 - 127.0.0.1 - - [10/Dec/2024 16:14:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:14:03,284 - Time: 2024-12-10 16:14:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstu'}
+2024-12-10 16:14:03,284 - 127.0.0.1 - - [10/Dec/2024 16:14:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:14:03,285 - Time: 2024-12-10 16:14:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuv'}
+2024-12-10 16:14:03,286 - 127.0.0.1 - - [10/Dec/2024 16:14:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:14:03,287 - Time: 2024-12-10 16:14:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvw'}
+2024-12-10 16:14:03,287 - 127.0.0.1 - - [10/Dec/2024 16:14:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:14:03,288 - Time: 2024-12-10 16:14:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwx'}
+2024-12-10 16:14:03,289 - 127.0.0.1 - - [10/Dec/2024 16:14:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:14:03,290 - Time: 2024-12-10 16:14:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwxy'}
+2024-12-10 16:14:03,290 - 127.0.0.1 - - [10/Dec/2024 16:14:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:14:03,292 - Time: 2024-12-10 16:14:03, Endpoint: /insert, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwxyz'}
+2024-12-10 16:14:03,292 - 127.0.0.1 - - [10/Dec/2024 16:14:03] "POST /insert HTTP/1.1" 200 -
+2024-12-10 16:14:26,545 -  * Detected change in '/home/rafad900/UCDavis/ECS235A/ECS235-Project/tests.py', reloading
+2024-12-10 16:14:26,579 -  * Restarting with stat
+2024-12-10 16:14:26,735 -  * Debugger is active!
+2024-12-10 16:14:26,735 -  * Debugger PIN: 130-705-631
+2024-12-10 16:14:27,926 - Time: 2024-12-10 16:14:27, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'a'}
+2024-12-10 16:14:27,927 - 127.0.0.1 - - [10/Dec/2024 16:14:27] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:14:27,929 - Time: 2024-12-10 16:14:27, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'ab'}
+2024-12-10 16:14:27,930 - 127.0.0.1 - - [10/Dec/2024 16:14:27] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:14:27,931 - Time: 2024-12-10 16:14:27, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abc'}
+2024-12-10 16:14:27,931 - 127.0.0.1 - - [10/Dec/2024 16:14:27] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:14:27,933 - Time: 2024-12-10 16:14:27, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcd'}
+2024-12-10 16:14:27,933 - 127.0.0.1 - - [10/Dec/2024 16:14:27] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:14:27,934 - Time: 2024-12-10 16:14:27, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcde'}
+2024-12-10 16:14:27,934 - 127.0.0.1 - - [10/Dec/2024 16:14:27] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:14:27,936 - Time: 2024-12-10 16:14:27, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdef'}
+2024-12-10 16:14:27,936 - 127.0.0.1 - - [10/Dec/2024 16:14:27] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:14:27,937 - Time: 2024-12-10 16:14:27, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefg'}
+2024-12-10 16:14:27,937 - 127.0.0.1 - - [10/Dec/2024 16:14:27] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:14:27,939 - Time: 2024-12-10 16:14:27, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefgh'}
+2024-12-10 16:14:27,939 - 127.0.0.1 - - [10/Dec/2024 16:14:27] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:14:27,949 - Time: 2024-12-10 16:14:27, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghi'}
+2024-12-10 16:14:27,950 - 127.0.0.1 - - [10/Dec/2024 16:14:27] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:14:27,952 - Time: 2024-12-10 16:14:27, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghij'}
+2024-12-10 16:14:27,952 - 127.0.0.1 - - [10/Dec/2024 16:14:27] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:14:27,954 - Time: 2024-12-10 16:14:27, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijk'}
+2024-12-10 16:14:27,954 - 127.0.0.1 - - [10/Dec/2024 16:14:27] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:14:27,956 - Time: 2024-12-10 16:14:27, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijkl'}
+2024-12-10 16:14:27,957 - 127.0.0.1 - - [10/Dec/2024 16:14:27] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:14:27,959 - Time: 2024-12-10 16:14:27, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklm'}
+2024-12-10 16:14:27,959 - 127.0.0.1 - - [10/Dec/2024 16:14:27] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:14:27,960 - Time: 2024-12-10 16:14:27, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmn'}
+2024-12-10 16:14:27,961 - 127.0.0.1 - - [10/Dec/2024 16:14:27] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:14:27,962 - Time: 2024-12-10 16:14:27, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmno'}
+2024-12-10 16:14:27,962 - 127.0.0.1 - - [10/Dec/2024 16:14:27] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:14:27,964 - Time: 2024-12-10 16:14:27, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnop'}
+2024-12-10 16:14:27,964 - 127.0.0.1 - - [10/Dec/2024 16:14:27] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:14:27,966 - Time: 2024-12-10 16:14:27, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopq'}
+2024-12-10 16:14:27,966 - 127.0.0.1 - - [10/Dec/2024 16:14:27] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:14:27,968 - Time: 2024-12-10 16:14:27, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqr'}
+2024-12-10 16:14:27,968 - 127.0.0.1 - - [10/Dec/2024 16:14:27] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:14:27,970 - Time: 2024-12-10 16:14:27, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrs'}
+2024-12-10 16:14:27,970 - 127.0.0.1 - - [10/Dec/2024 16:14:27] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:14:27,971 - Time: 2024-12-10 16:14:27, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrst'}
+2024-12-10 16:14:27,971 - 127.0.0.1 - - [10/Dec/2024 16:14:27] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:14:27,973 - Time: 2024-12-10 16:14:27, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstu'}
+2024-12-10 16:14:27,974 - 127.0.0.1 - - [10/Dec/2024 16:14:27] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:14:27,976 - Time: 2024-12-10 16:14:27, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuv'}
+2024-12-10 16:14:27,977 - 127.0.0.1 - - [10/Dec/2024 16:14:27] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:14:27,978 - Time: 2024-12-10 16:14:27, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvw'}
+2024-12-10 16:14:27,979 - 127.0.0.1 - - [10/Dec/2024 16:14:27] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:14:27,980 - Time: 2024-12-10 16:14:27, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwx'}
+2024-12-10 16:14:27,981 - 127.0.0.1 - - [10/Dec/2024 16:14:27] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:14:27,983 - Time: 2024-12-10 16:14:27, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwxy'}
+2024-12-10 16:14:27,983 - 127.0.0.1 - - [10/Dec/2024 16:14:27] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:14:27,984 - Time: 2024-12-10 16:14:27, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwxyz'}
+2024-12-10 16:14:27,985 - 127.0.0.1 - - [10/Dec/2024 16:14:27] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:14:34,767 -  * Detected change in '/home/rafad900/UCDavis/ECS235A/ECS235-Project/main.py', reloading
+2024-12-10 16:14:34,793 -  * Restarting with stat
+2024-12-10 16:14:34,926 -  * Debugger is active!
+2024-12-10 16:14:34,927 -  * Debugger PIN: 130-705-631
+2024-12-10 16:14:39,487 - Time: 2024-12-10 16:14:39, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'a'}
+2024-12-10 16:14:39,488 - 127.0.0.1 - - [10/Dec/2024 16:14:39] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:14:39,490 - Time: 2024-12-10 16:14:39, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'ab'}
+2024-12-10 16:14:39,490 - 127.0.0.1 - - [10/Dec/2024 16:14:39] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:14:39,492 - Time: 2024-12-10 16:14:39, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abc'}
+2024-12-10 16:14:39,492 - 127.0.0.1 - - [10/Dec/2024 16:14:39] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:14:39,493 - Time: 2024-12-10 16:14:39, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcd'}
+2024-12-10 16:14:39,494 - 127.0.0.1 - - [10/Dec/2024 16:14:39] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:14:39,495 - Time: 2024-12-10 16:14:39, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcde'}
+2024-12-10 16:14:39,495 - 127.0.0.1 - - [10/Dec/2024 16:14:39] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:14:39,497 - Time: 2024-12-10 16:14:39, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdef'}
+2024-12-10 16:14:39,497 - 127.0.0.1 - - [10/Dec/2024 16:14:39] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:14:39,498 - Time: 2024-12-10 16:14:39, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefg'}
+2024-12-10 16:14:39,499 - 127.0.0.1 - - [10/Dec/2024 16:14:39] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:14:39,500 - Time: 2024-12-10 16:14:39, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefgh'}
+2024-12-10 16:14:39,501 - 127.0.0.1 - - [10/Dec/2024 16:14:39] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:14:39,512 - Time: 2024-12-10 16:14:39, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghi'}
+2024-12-10 16:14:39,513 - 127.0.0.1 - - [10/Dec/2024 16:14:39] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:14:39,515 - Time: 2024-12-10 16:14:39, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghij'}
+2024-12-10 16:14:39,515 - 127.0.0.1 - - [10/Dec/2024 16:14:39] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:14:39,517 - Time: 2024-12-10 16:14:39, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijk'}
+2024-12-10 16:14:39,517 - 127.0.0.1 - - [10/Dec/2024 16:14:39] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:14:39,519 - Time: 2024-12-10 16:14:39, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijkl'}
+2024-12-10 16:14:39,519 - 127.0.0.1 - - [10/Dec/2024 16:14:39] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:14:39,521 - Time: 2024-12-10 16:14:39, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklm'}
+2024-12-10 16:14:39,521 - 127.0.0.1 - - [10/Dec/2024 16:14:39] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:14:39,522 - Time: 2024-12-10 16:14:39, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmn'}
+2024-12-10 16:14:39,523 - 127.0.0.1 - - [10/Dec/2024 16:14:39] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:14:39,524 - Time: 2024-12-10 16:14:39, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmno'}
+2024-12-10 16:14:39,525 - 127.0.0.1 - - [10/Dec/2024 16:14:39] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:14:39,526 - Time: 2024-12-10 16:14:39, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnop'}
+2024-12-10 16:14:39,527 - 127.0.0.1 - - [10/Dec/2024 16:14:39] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:14:39,528 - Time: 2024-12-10 16:14:39, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopq'}
+2024-12-10 16:14:39,529 - 127.0.0.1 - - [10/Dec/2024 16:14:39] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:14:39,530 - Time: 2024-12-10 16:14:39, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqr'}
+2024-12-10 16:14:39,531 - 127.0.0.1 - - [10/Dec/2024 16:14:39] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:14:39,532 - Time: 2024-12-10 16:14:39, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrs'}
+2024-12-10 16:14:39,532 - 127.0.0.1 - - [10/Dec/2024 16:14:39] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:14:39,534 - Time: 2024-12-10 16:14:39, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrst'}
+2024-12-10 16:14:39,535 - 127.0.0.1 - - [10/Dec/2024 16:14:39] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:14:39,537 - Time: 2024-12-10 16:14:39, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstu'}
+2024-12-10 16:14:39,537 - 127.0.0.1 - - [10/Dec/2024 16:14:39] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:14:39,539 - Time: 2024-12-10 16:14:39, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuv'}
+2024-12-10 16:14:39,540 - 127.0.0.1 - - [10/Dec/2024 16:14:39] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:14:39,541 - Time: 2024-12-10 16:14:39, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvw'}
+2024-12-10 16:14:39,541 - 127.0.0.1 - - [10/Dec/2024 16:14:39] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:14:39,544 - Time: 2024-12-10 16:14:39, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwx'}
+2024-12-10 16:14:39,544 - 127.0.0.1 - - [10/Dec/2024 16:14:39] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:14:39,546 - Time: 2024-12-10 16:14:39, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwxy'}
+2024-12-10 16:14:39,546 - 127.0.0.1 - - [10/Dec/2024 16:14:39] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:14:39,548 - Time: 2024-12-10 16:14:39, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwxyz'}
+2024-12-10 16:14:39,548 - 127.0.0.1 - - [10/Dec/2024 16:14:39] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:14:58,006 -  * Detected change in '/home/rafad900/UCDavis/ECS235A/ECS235-Project/main.py', reloading
+2024-12-10 16:14:58,031 -  * Restarting with stat
+2024-12-10 16:14:58,166 -  * Debugger is active!
+2024-12-10 16:14:58,167 -  * Debugger PIN: 130-705-631
+2024-12-10 16:15:00,176 -  * Detected change in '/home/rafad900/UCDavis/ECS235A/ECS235-Project/main.py', reloading
+2024-12-10 16:15:00,203 -  * Restarting with stat
+2024-12-10 16:15:00,344 -  * Debugger is active!
+2024-12-10 16:15:00,344 -  * Debugger PIN: 130-705-631
+2024-12-10 16:15:10,380 -  * Detected change in '/home/rafad900/UCDavis/ECS235A/ECS235-Project/main.py', reloading
+2024-12-10 16:15:10,409 -  * Restarting with stat
+2024-12-10 16:15:10,566 -  * Debugger is active!
+2024-12-10 16:15:10,567 -  * Debugger PIN: 130-705-631
+2024-12-10 16:15:11,650 - Time: 2024-12-10 16:15:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'a'}
+2024-12-10 16:15:11,651 - 127.0.0.1 - - [10/Dec/2024 16:15:11] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:15:11,653 - Time: 2024-12-10 16:15:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'ab'}
+2024-12-10 16:15:11,653 - 127.0.0.1 - - [10/Dec/2024 16:15:11] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:15:11,655 - Time: 2024-12-10 16:15:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abc'}
+2024-12-10 16:15:11,655 - 127.0.0.1 - - [10/Dec/2024 16:15:11] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:15:11,657 - Time: 2024-12-10 16:15:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcd'}
+2024-12-10 16:15:11,657 - 127.0.0.1 - - [10/Dec/2024 16:15:11] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:15:11,659 - Time: 2024-12-10 16:15:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcde'}
+2024-12-10 16:15:11,659 - 127.0.0.1 - - [10/Dec/2024 16:15:11] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:15:11,661 - Time: 2024-12-10 16:15:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdef'}
+2024-12-10 16:15:11,661 - 127.0.0.1 - - [10/Dec/2024 16:15:11] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:15:11,662 - Time: 2024-12-10 16:15:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefg'}
+2024-12-10 16:15:11,662 - 127.0.0.1 - - [10/Dec/2024 16:15:11] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:15:11,664 - Time: 2024-12-10 16:15:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefgh'}
+2024-12-10 16:15:11,664 - 127.0.0.1 - - [10/Dec/2024 16:15:11] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:15:11,678 - Time: 2024-12-10 16:15:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghi'}
+2024-12-10 16:15:11,678 - 127.0.0.1 - - [10/Dec/2024 16:15:11] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:15:11,681 - Time: 2024-12-10 16:15:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghij'}
+2024-12-10 16:15:11,681 - 127.0.0.1 - - [10/Dec/2024 16:15:11] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:15:11,682 - Time: 2024-12-10 16:15:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijk'}
+2024-12-10 16:15:11,683 - 127.0.0.1 - - [10/Dec/2024 16:15:11] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:15:11,685 - Time: 2024-12-10 16:15:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijkl'}
+2024-12-10 16:15:11,685 - 127.0.0.1 - - [10/Dec/2024 16:15:11] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:15:11,687 - Time: 2024-12-10 16:15:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklm'}
+2024-12-10 16:15:11,687 - 127.0.0.1 - - [10/Dec/2024 16:15:11] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:15:11,688 - Time: 2024-12-10 16:15:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmn'}
+2024-12-10 16:15:11,689 - 127.0.0.1 - - [10/Dec/2024 16:15:11] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:15:11,690 - Time: 2024-12-10 16:15:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmno'}
+2024-12-10 16:15:11,691 - 127.0.0.1 - - [10/Dec/2024 16:15:11] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:15:11,692 - Time: 2024-12-10 16:15:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnop'}
+2024-12-10 16:15:11,692 - 127.0.0.1 - - [10/Dec/2024 16:15:11] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:15:11,694 - Time: 2024-12-10 16:15:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopq'}
+2024-12-10 16:15:11,695 - 127.0.0.1 - - [10/Dec/2024 16:15:11] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:15:11,697 - Time: 2024-12-10 16:15:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqr'}
+2024-12-10 16:15:11,697 - 127.0.0.1 - - [10/Dec/2024 16:15:11] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:15:11,698 - Time: 2024-12-10 16:15:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrs'}
+2024-12-10 16:15:11,699 - 127.0.0.1 - - [10/Dec/2024 16:15:11] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:15:11,700 - Time: 2024-12-10 16:15:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrst'}
+2024-12-10 16:15:11,701 - 127.0.0.1 - - [10/Dec/2024 16:15:11] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:15:11,703 - Time: 2024-12-10 16:15:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstu'}
+2024-12-10 16:15:11,703 - 127.0.0.1 - - [10/Dec/2024 16:15:11] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:15:11,705 - Time: 2024-12-10 16:15:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuv'}
+2024-12-10 16:15:11,705 - 127.0.0.1 - - [10/Dec/2024 16:15:11] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:15:11,707 - Time: 2024-12-10 16:15:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvw'}
+2024-12-10 16:15:11,708 - 127.0.0.1 - - [10/Dec/2024 16:15:11] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:15:11,709 - Time: 2024-12-10 16:15:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwx'}
+2024-12-10 16:15:11,710 - 127.0.0.1 - - [10/Dec/2024 16:15:11] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:15:11,711 - Time: 2024-12-10 16:15:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwxy'}
+2024-12-10 16:15:11,712 - 127.0.0.1 - - [10/Dec/2024 16:15:11] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:15:11,713 - Time: 2024-12-10 16:15:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwxyz'}
+2024-12-10 16:15:11,714 - 127.0.0.1 - - [10/Dec/2024 16:15:11] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:16:09,761 -  * Detected change in '/home/rafad900/UCDavis/ECS235A/ECS235-Project/main.py', reloading
+2024-12-10 16:16:09,804 -  * Restarting with stat
+2024-12-10 16:16:10,128 -  * Debugger is active!
+2024-12-10 16:16:10,129 -  * Debugger PIN: 130-705-631
+2024-12-10 16:16:11,408 - Time: 2024-12-10 16:16:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'a'}
+2024-12-10 16:16:11,428 - 127.0.0.1 - - [10/Dec/2024 16:16:11] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:11,429 - Time: 2024-12-10 16:16:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'ab'}
+2024-12-10 16:16:11,430 - 127.0.0.1 - - [10/Dec/2024 16:16:11] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:11,432 - Time: 2024-12-10 16:16:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abc'}
+2024-12-10 16:16:11,432 - 127.0.0.1 - - [10/Dec/2024 16:16:11] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:11,434 - Time: 2024-12-10 16:16:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcd'}
+2024-12-10 16:16:11,435 - 127.0.0.1 - - [10/Dec/2024 16:16:11] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:11,436 - Time: 2024-12-10 16:16:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcde'}
+2024-12-10 16:16:11,437 - 127.0.0.1 - - [10/Dec/2024 16:16:11] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:11,438 - Time: 2024-12-10 16:16:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdef'}
+2024-12-10 16:16:11,439 - 127.0.0.1 - - [10/Dec/2024 16:16:11] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:11,440 - Time: 2024-12-10 16:16:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefg'}
+2024-12-10 16:16:11,441 - 127.0.0.1 - - [10/Dec/2024 16:16:11] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:11,443 - Time: 2024-12-10 16:16:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefgh'}
+2024-12-10 16:16:11,445 - 127.0.0.1 - - [10/Dec/2024 16:16:11] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:11,446 - Time: 2024-12-10 16:16:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghi'}
+2024-12-10 16:16:11,447 - 127.0.0.1 - - [10/Dec/2024 16:16:11] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:11,448 - Time: 2024-12-10 16:16:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghij'}
+2024-12-10 16:16:11,449 - 127.0.0.1 - - [10/Dec/2024 16:16:11] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:11,450 - Time: 2024-12-10 16:16:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijk'}
+2024-12-10 16:16:11,451 - 127.0.0.1 - - [10/Dec/2024 16:16:11] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:11,452 - Time: 2024-12-10 16:16:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijkl'}
+2024-12-10 16:16:11,453 - 127.0.0.1 - - [10/Dec/2024 16:16:11] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:11,455 - Time: 2024-12-10 16:16:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklm'}
+2024-12-10 16:16:11,456 - 127.0.0.1 - - [10/Dec/2024 16:16:11] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:11,457 - Time: 2024-12-10 16:16:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmn'}
+2024-12-10 16:16:11,458 - 127.0.0.1 - - [10/Dec/2024 16:16:11] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:11,460 - Time: 2024-12-10 16:16:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmno'}
+2024-12-10 16:16:11,461 - 127.0.0.1 - - [10/Dec/2024 16:16:11] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:11,463 - Time: 2024-12-10 16:16:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnop'}
+2024-12-10 16:16:11,464 - 127.0.0.1 - - [10/Dec/2024 16:16:11] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:11,465 - Time: 2024-12-10 16:16:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopq'}
+2024-12-10 16:16:11,466 - 127.0.0.1 - - [10/Dec/2024 16:16:11] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:11,468 - Time: 2024-12-10 16:16:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqr'}
+2024-12-10 16:16:11,469 - 127.0.0.1 - - [10/Dec/2024 16:16:11] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:11,471 - Time: 2024-12-10 16:16:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrs'}
+2024-12-10 16:16:11,472 - 127.0.0.1 - - [10/Dec/2024 16:16:11] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:11,474 - Time: 2024-12-10 16:16:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrst'}
+2024-12-10 16:16:11,475 - 127.0.0.1 - - [10/Dec/2024 16:16:11] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:11,477 - Time: 2024-12-10 16:16:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstu'}
+2024-12-10 16:16:11,478 - 127.0.0.1 - - [10/Dec/2024 16:16:11] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:11,479 - Time: 2024-12-10 16:16:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuv'}
+2024-12-10 16:16:11,480 - 127.0.0.1 - - [10/Dec/2024 16:16:11] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:11,482 - Time: 2024-12-10 16:16:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvw'}
+2024-12-10 16:16:11,483 - 127.0.0.1 - - [10/Dec/2024 16:16:11] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:11,484 - Time: 2024-12-10 16:16:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwx'}
+2024-12-10 16:16:11,485 - 127.0.0.1 - - [10/Dec/2024 16:16:11] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:11,487 - Time: 2024-12-10 16:16:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwxy'}
+2024-12-10 16:16:11,488 - 127.0.0.1 - - [10/Dec/2024 16:16:11] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:11,490 - Time: 2024-12-10 16:16:11, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwxyz'}
+2024-12-10 16:16:11,490 - 127.0.0.1 - - [10/Dec/2024 16:16:11] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:14,694 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2024-12-10 16:16:14,694 - [33mPress CTRL+C to quit[0m
+2024-12-10 16:16:14,694 -  * Restarting with stat
+2024-12-10 16:16:14,830 -  * Debugger is active!
+2024-12-10 16:16:14,831 -  * Debugger PIN: 130-705-631
+2024-12-10 16:16:16,637 - Time: 2024-12-10 16:16:16, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'a'}
+2024-12-10 16:16:16,655 - 127.0.0.1 - - [10/Dec/2024 16:16:16] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:16,657 - Time: 2024-12-10 16:16:16, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'ab'}
+2024-12-10 16:16:16,658 - 127.0.0.1 - - [10/Dec/2024 16:16:16] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:16,659 - Time: 2024-12-10 16:16:16, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abc'}
+2024-12-10 16:16:16,660 - 127.0.0.1 - - [10/Dec/2024 16:16:16] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:16,661 - Time: 2024-12-10 16:16:16, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcd'}
+2024-12-10 16:16:16,662 - 127.0.0.1 - - [10/Dec/2024 16:16:16] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:16,663 - Time: 2024-12-10 16:16:16, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcde'}
+2024-12-10 16:16:16,664 - 127.0.0.1 - - [10/Dec/2024 16:16:16] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:16,666 - Time: 2024-12-10 16:16:16, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdef'}
+2024-12-10 16:16:16,667 - 127.0.0.1 - - [10/Dec/2024 16:16:16] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:16,669 - Time: 2024-12-10 16:16:16, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefg'}
+2024-12-10 16:16:16,670 - 127.0.0.1 - - [10/Dec/2024 16:16:16] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:16,672 - Time: 2024-12-10 16:16:16, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefgh'}
+2024-12-10 16:16:16,674 - 127.0.0.1 - - [10/Dec/2024 16:16:16] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:16,676 - Time: 2024-12-10 16:16:16, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghi'}
+2024-12-10 16:16:16,677 - 127.0.0.1 - - [10/Dec/2024 16:16:16] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:16,679 - Time: 2024-12-10 16:16:16, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghij'}
+2024-12-10 16:16:16,680 - 127.0.0.1 - - [10/Dec/2024 16:16:16] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:16,682 - Time: 2024-12-10 16:16:16, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijk'}
+2024-12-10 16:16:16,684 - 127.0.0.1 - - [10/Dec/2024 16:16:16] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:16,686 - Time: 2024-12-10 16:16:16, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijkl'}
+2024-12-10 16:16:16,687 - 127.0.0.1 - - [10/Dec/2024 16:16:16] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:16,688 - Time: 2024-12-10 16:16:16, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklm'}
+2024-12-10 16:16:16,689 - 127.0.0.1 - - [10/Dec/2024 16:16:16] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:16,691 - Time: 2024-12-10 16:16:16, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmn'}
+2024-12-10 16:16:16,693 - 127.0.0.1 - - [10/Dec/2024 16:16:16] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:16,694 - Time: 2024-12-10 16:16:16, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmno'}
+2024-12-10 16:16:16,695 - 127.0.0.1 - - [10/Dec/2024 16:16:16] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:16,697 - Time: 2024-12-10 16:16:16, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnop'}
+2024-12-10 16:16:16,698 - 127.0.0.1 - - [10/Dec/2024 16:16:16] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:16,700 - Time: 2024-12-10 16:16:16, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopq'}
+2024-12-10 16:16:16,701 - 127.0.0.1 - - [10/Dec/2024 16:16:16] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:16,703 - Time: 2024-12-10 16:16:16, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqr'}
+2024-12-10 16:16:16,704 - 127.0.0.1 - - [10/Dec/2024 16:16:16] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:16,706 - Time: 2024-12-10 16:16:16, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrs'}
+2024-12-10 16:16:16,707 - 127.0.0.1 - - [10/Dec/2024 16:16:16] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:16,709 - Time: 2024-12-10 16:16:16, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrst'}
+2024-12-10 16:16:16,710 - 127.0.0.1 - - [10/Dec/2024 16:16:16] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:16,712 - Time: 2024-12-10 16:16:16, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstu'}
+2024-12-10 16:16:16,713 - 127.0.0.1 - - [10/Dec/2024 16:16:16] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:16,715 - Time: 2024-12-10 16:16:16, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuv'}
+2024-12-10 16:16:16,716 - 127.0.0.1 - - [10/Dec/2024 16:16:16] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:16,719 - Time: 2024-12-10 16:16:16, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvw'}
+2024-12-10 16:16:16,720 - 127.0.0.1 - - [10/Dec/2024 16:16:16] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:16,722 - Time: 2024-12-10 16:16:16, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwx'}
+2024-12-10 16:16:16,723 - 127.0.0.1 - - [10/Dec/2024 16:16:16] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:16,725 - Time: 2024-12-10 16:16:16, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwxy'}
+2024-12-10 16:16:16,726 - 127.0.0.1 - - [10/Dec/2024 16:16:16] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:16,728 - Time: 2024-12-10 16:16:16, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwxyz'}
+2024-12-10 16:16:16,729 - 127.0.0.1 - - [10/Dec/2024 16:16:16] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:20,740 - Time: 2024-12-10 16:16:20, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'a'}
+2024-12-10 16:16:20,742 - 127.0.0.1 - - [10/Dec/2024 16:16:20] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:20,744 - Time: 2024-12-10 16:16:20, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'ab'}
+2024-12-10 16:16:20,745 - 127.0.0.1 - - [10/Dec/2024 16:16:20] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:20,746 - Time: 2024-12-10 16:16:20, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abc'}
+2024-12-10 16:16:20,747 - 127.0.0.1 - - [10/Dec/2024 16:16:20] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:20,749 - Time: 2024-12-10 16:16:20, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcd'}
+2024-12-10 16:16:20,749 - 127.0.0.1 - - [10/Dec/2024 16:16:20] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:20,750 - Time: 2024-12-10 16:16:20, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcde'}
+2024-12-10 16:16:20,751 - 127.0.0.1 - - [10/Dec/2024 16:16:20] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:20,753 - Time: 2024-12-10 16:16:20, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdef'}
+2024-12-10 16:16:20,754 - 127.0.0.1 - - [10/Dec/2024 16:16:20] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:20,755 - Time: 2024-12-10 16:16:20, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefg'}
+2024-12-10 16:16:20,756 - 127.0.0.1 - - [10/Dec/2024 16:16:20] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:20,757 - Time: 2024-12-10 16:16:20, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefgh'}
+2024-12-10 16:16:20,758 - 127.0.0.1 - - [10/Dec/2024 16:16:20] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:20,760 - Time: 2024-12-10 16:16:20, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghi'}
+2024-12-10 16:16:20,761 - 127.0.0.1 - - [10/Dec/2024 16:16:20] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:20,763 - Time: 2024-12-10 16:16:20, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghij'}
+2024-12-10 16:16:20,764 - 127.0.0.1 - - [10/Dec/2024 16:16:20] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:20,766 - Time: 2024-12-10 16:16:20, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijk'}
+2024-12-10 16:16:20,767 - 127.0.0.1 - - [10/Dec/2024 16:16:20] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:20,769 - Time: 2024-12-10 16:16:20, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijkl'}
+2024-12-10 16:16:20,770 - 127.0.0.1 - - [10/Dec/2024 16:16:20] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:20,771 - Time: 2024-12-10 16:16:20, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklm'}
+2024-12-10 16:16:20,773 - 127.0.0.1 - - [10/Dec/2024 16:16:20] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:20,775 - Time: 2024-12-10 16:16:20, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmn'}
+2024-12-10 16:16:20,776 - 127.0.0.1 - - [10/Dec/2024 16:16:20] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:20,778 - Time: 2024-12-10 16:16:20, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmno'}
+2024-12-10 16:16:20,779 - 127.0.0.1 - - [10/Dec/2024 16:16:20] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:20,780 - Time: 2024-12-10 16:16:20, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnop'}
+2024-12-10 16:16:20,781 - 127.0.0.1 - - [10/Dec/2024 16:16:20] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:20,783 - Time: 2024-12-10 16:16:20, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopq'}
+2024-12-10 16:16:20,784 - 127.0.0.1 - - [10/Dec/2024 16:16:20] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:20,786 - Time: 2024-12-10 16:16:20, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqr'}
+2024-12-10 16:16:20,787 - 127.0.0.1 - - [10/Dec/2024 16:16:20] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:20,788 - Time: 2024-12-10 16:16:20, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrs'}
+2024-12-10 16:16:20,789 - 127.0.0.1 - - [10/Dec/2024 16:16:20] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:20,791 - Time: 2024-12-10 16:16:20, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrst'}
+2024-12-10 16:16:20,791 - 127.0.0.1 - - [10/Dec/2024 16:16:20] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:20,793 - Time: 2024-12-10 16:16:20, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstu'}
+2024-12-10 16:16:20,794 - 127.0.0.1 - - [10/Dec/2024 16:16:20] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:20,796 - Time: 2024-12-10 16:16:20, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuv'}
+2024-12-10 16:16:20,796 - 127.0.0.1 - - [10/Dec/2024 16:16:20] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:20,798 - Time: 2024-12-10 16:16:20, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvw'}
+2024-12-10 16:16:20,798 - 127.0.0.1 - - [10/Dec/2024 16:16:20] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:20,800 - Time: 2024-12-10 16:16:20, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwx'}
+2024-12-10 16:16:20,800 - 127.0.0.1 - - [10/Dec/2024 16:16:20] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:20,802 - Time: 2024-12-10 16:16:20, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwxy'}
+2024-12-10 16:16:20,803 - 127.0.0.1 - - [10/Dec/2024 16:16:20] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:20,804 - Time: 2024-12-10 16:16:20, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwxyz'}
+2024-12-10 16:16:20,805 - 127.0.0.1 - - [10/Dec/2024 16:16:20] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:16:40,924 -  * Detected change in '/home/rafad900/UCDavis/ECS235A/ECS235-Project/main.py', reloading
+2024-12-10 16:16:41,199 -  * Restarting with stat
+2024-12-10 16:16:41,338 -  * Debugger is active!
+2024-12-10 16:16:41,339 -  * Debugger PIN: 130-705-631
+2024-12-10 16:16:42,511 - Time: 2024-12-10 16:16:42, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'a'}
+2024-12-10 16:16:42,513 - 127.0.0.1 - - [10/Dec/2024 16:16:42] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:16:42,514 - Time: 2024-12-10 16:16:42, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'ab'}
+2024-12-10 16:16:42,514 - 127.0.0.1 - - [10/Dec/2024 16:16:42] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:16:42,516 - Time: 2024-12-10 16:16:42, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abc'}
+2024-12-10 16:16:42,516 - 127.0.0.1 - - [10/Dec/2024 16:16:42] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:16:42,517 - Time: 2024-12-10 16:16:42, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcd'}
+2024-12-10 16:16:42,517 - 127.0.0.1 - - [10/Dec/2024 16:16:42] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:16:42,519 - Time: 2024-12-10 16:16:42, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcde'}
+2024-12-10 16:16:42,519 - 127.0.0.1 - - [10/Dec/2024 16:16:42] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:16:42,520 - Time: 2024-12-10 16:16:42, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdef'}
+2024-12-10 16:16:42,520 - 127.0.0.1 - - [10/Dec/2024 16:16:42] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:16:42,522 - Time: 2024-12-10 16:16:42, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefg'}
+2024-12-10 16:16:42,522 - 127.0.0.1 - - [10/Dec/2024 16:16:42] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:16:42,523 - Time: 2024-12-10 16:16:42, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefgh'}
+2024-12-10 16:16:42,524 - 127.0.0.1 - - [10/Dec/2024 16:16:42] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:16:42,535 - Time: 2024-12-10 16:16:42, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghi'}
+2024-12-10 16:16:42,535 - 127.0.0.1 - - [10/Dec/2024 16:16:42] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:16:42,538 - Time: 2024-12-10 16:16:42, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghij'}
+2024-12-10 16:16:42,538 - 127.0.0.1 - - [10/Dec/2024 16:16:42] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:16:42,540 - Time: 2024-12-10 16:16:42, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijk'}
+2024-12-10 16:16:42,540 - 127.0.0.1 - - [10/Dec/2024 16:16:42] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:16:42,542 - Time: 2024-12-10 16:16:42, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijkl'}
+2024-12-10 16:16:42,542 - 127.0.0.1 - - [10/Dec/2024 16:16:42] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:16:42,544 - Time: 2024-12-10 16:16:42, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklm'}
+2024-12-10 16:16:42,544 - 127.0.0.1 - - [10/Dec/2024 16:16:42] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:16:42,545 - Time: 2024-12-10 16:16:42, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmn'}
+2024-12-10 16:16:42,546 - 127.0.0.1 - - [10/Dec/2024 16:16:42] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:16:42,547 - Time: 2024-12-10 16:16:42, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmno'}
+2024-12-10 16:16:42,548 - 127.0.0.1 - - [10/Dec/2024 16:16:42] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:16:42,550 - Time: 2024-12-10 16:16:42, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnop'}
+2024-12-10 16:16:42,550 - 127.0.0.1 - - [10/Dec/2024 16:16:42] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:16:42,551 - Time: 2024-12-10 16:16:42, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopq'}
+2024-12-10 16:16:42,552 - 127.0.0.1 - - [10/Dec/2024 16:16:42] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:16:42,553 - Time: 2024-12-10 16:16:42, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqr'}
+2024-12-10 16:16:42,554 - 127.0.0.1 - - [10/Dec/2024 16:16:42] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:16:42,556 - Time: 2024-12-10 16:16:42, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrs'}
+2024-12-10 16:16:42,556 - 127.0.0.1 - - [10/Dec/2024 16:16:42] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:16:42,558 - Time: 2024-12-10 16:16:42, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrst'}
+2024-12-10 16:16:42,558 - 127.0.0.1 - - [10/Dec/2024 16:16:42] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:16:42,560 - Time: 2024-12-10 16:16:42, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstu'}
+2024-12-10 16:16:42,560 - 127.0.0.1 - - [10/Dec/2024 16:16:42] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:16:42,562 - Time: 2024-12-10 16:16:42, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuv'}
+2024-12-10 16:16:42,562 - 127.0.0.1 - - [10/Dec/2024 16:16:42] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:16:42,564 - Time: 2024-12-10 16:16:42, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvw'}
+2024-12-10 16:16:42,564 - 127.0.0.1 - - [10/Dec/2024 16:16:42] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:16:42,565 - Time: 2024-12-10 16:16:42, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwx'}
+2024-12-10 16:16:42,565 - 127.0.0.1 - - [10/Dec/2024 16:16:42] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:16:42,567 - Time: 2024-12-10 16:16:42, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwxy'}
+2024-12-10 16:16:42,568 - 127.0.0.1 - - [10/Dec/2024 16:16:42] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:16:42,569 - Time: 2024-12-10 16:16:42, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwxyz'}
+2024-12-10 16:16:42,569 - 127.0.0.1 - - [10/Dec/2024 16:16:42] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-12-10 16:16:49,370 -  * Detected change in '/home/rafad900/UCDavis/ECS235A/ECS235-Project/main.py', reloading
+2024-12-10 16:16:49,400 -  * Restarting with stat
+2024-12-10 16:17:04,725 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2024-12-10 16:17:04,725 - [33mPress CTRL+C to quit[0m
+2024-12-10 16:17:04,725 -  * Restarting with stat
+2024-12-10 16:17:04,871 -  * Debugger is active!
+2024-12-10 16:17:04,871 -  * Debugger PIN: 130-705-631
+2024-12-10 16:17:06,358 - Time: 2024-12-10 16:17:06, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'a'}
+2024-12-10 16:17:06,375 - 127.0.0.1 - - [10/Dec/2024 16:17:06] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:17:06,377 - Time: 2024-12-10 16:17:06, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'ab'}
+2024-12-10 16:17:06,378 - 127.0.0.1 - - [10/Dec/2024 16:17:06] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:17:06,380 - Time: 2024-12-10 16:17:06, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abc'}
+2024-12-10 16:17:06,381 - 127.0.0.1 - - [10/Dec/2024 16:17:06] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:17:06,383 - Time: 2024-12-10 16:17:06, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcd'}
+2024-12-10 16:17:06,384 - 127.0.0.1 - - [10/Dec/2024 16:17:06] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:17:06,386 - Time: 2024-12-10 16:17:06, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcde'}
+2024-12-10 16:17:06,387 - 127.0.0.1 - - [10/Dec/2024 16:17:06] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:17:06,389 - Time: 2024-12-10 16:17:06, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdef'}
+2024-12-10 16:17:06,390 - 127.0.0.1 - - [10/Dec/2024 16:17:06] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:17:06,392 - Time: 2024-12-10 16:17:06, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefg'}
+2024-12-10 16:17:06,393 - 127.0.0.1 - - [10/Dec/2024 16:17:06] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:17:06,395 - Time: 2024-12-10 16:17:06, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefgh'}
+2024-12-10 16:17:06,396 - 127.0.0.1 - - [10/Dec/2024 16:17:06] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:17:06,398 - Time: 2024-12-10 16:17:06, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghi'}
+2024-12-10 16:17:06,399 - 127.0.0.1 - - [10/Dec/2024 16:17:06] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:17:06,401 - Time: 2024-12-10 16:17:06, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghij'}
+2024-12-10 16:17:06,402 - 127.0.0.1 - - [10/Dec/2024 16:17:06] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:17:06,404 - Time: 2024-12-10 16:17:06, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijk'}
+2024-12-10 16:17:06,405 - 127.0.0.1 - - [10/Dec/2024 16:17:06] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:17:06,407 - Time: 2024-12-10 16:17:06, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijkl'}
+2024-12-10 16:17:06,408 - 127.0.0.1 - - [10/Dec/2024 16:17:06] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:17:06,410 - Time: 2024-12-10 16:17:06, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklm'}
+2024-12-10 16:17:06,411 - 127.0.0.1 - - [10/Dec/2024 16:17:06] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:17:06,413 - Time: 2024-12-10 16:17:06, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmn'}
+2024-12-10 16:17:06,414 - 127.0.0.1 - - [10/Dec/2024 16:17:06] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:17:06,416 - Time: 2024-12-10 16:17:06, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmno'}
+2024-12-10 16:17:06,417 - 127.0.0.1 - - [10/Dec/2024 16:17:06] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:17:06,419 - Time: 2024-12-10 16:17:06, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnop'}
+2024-12-10 16:17:06,421 - 127.0.0.1 - - [10/Dec/2024 16:17:06] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:17:06,423 - Time: 2024-12-10 16:17:06, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopq'}
+2024-12-10 16:17:06,425 - 127.0.0.1 - - [10/Dec/2024 16:17:06] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:17:06,427 - Time: 2024-12-10 16:17:06, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqr'}
+2024-12-10 16:17:06,428 - 127.0.0.1 - - [10/Dec/2024 16:17:06] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:17:06,429 - Time: 2024-12-10 16:17:06, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrs'}
+2024-12-10 16:17:06,431 - 127.0.0.1 - - [10/Dec/2024 16:17:06] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:17:06,432 - Time: 2024-12-10 16:17:06, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrst'}
+2024-12-10 16:17:06,434 - 127.0.0.1 - - [10/Dec/2024 16:17:06] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:17:06,436 - Time: 2024-12-10 16:17:06, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstu'}
+2024-12-10 16:17:06,437 - 127.0.0.1 - - [10/Dec/2024 16:17:06] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:17:06,439 - Time: 2024-12-10 16:17:06, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuv'}
+2024-12-10 16:17:06,440 - 127.0.0.1 - - [10/Dec/2024 16:17:06] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:17:06,442 - Time: 2024-12-10 16:17:06, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvw'}
+2024-12-10 16:17:06,443 - 127.0.0.1 - - [10/Dec/2024 16:17:06] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:17:06,445 - Time: 2024-12-10 16:17:06, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwx'}
+2024-12-10 16:17:06,446 - 127.0.0.1 - - [10/Dec/2024 16:17:06] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:17:06,447 - Time: 2024-12-10 16:17:06, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwxy'}
+2024-12-10 16:17:06,448 - 127.0.0.1 - - [10/Dec/2024 16:17:06] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:17:06,450 - Time: 2024-12-10 16:17:06, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwxyz'}
+2024-12-10 16:17:06,451 - 127.0.0.1 - - [10/Dec/2024 16:17:06] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:17:15,911 -  * Detected change in '/home/rafad900/UCDavis/ECS235A/ECS235-Project/main.py', reloading
+2024-12-10 16:17:16,409 -  * Restarting with stat
+2024-12-10 16:17:16,543 -  * Debugger is active!
+2024-12-10 16:17:16,544 -  * Debugger PIN: 130-705-631
+2024-12-10 16:17:18,995 - 127.0.0.1 - - [10/Dec/2024 16:17:18] "[31m[1mGET /get-data HTTP/1.1[0m" 415 -
+2024-12-10 16:17:30,584 -  * Detected change in '/home/rafad900/UCDavis/ECS235A/ECS235-Project/main.py', reloading
+2024-12-10 16:17:30,608 -  * Restarting with stat
+2024-12-10 16:17:30,750 -  * Debugger is active!
+2024-12-10 16:17:30,751 -  * Debugger PIN: 130-705-631
+2024-12-10 16:17:32,646 - 127.0.0.1 - - [10/Dec/2024 16:17:32] "[31m[1mGET /get-data HTTP/1.1[0m" 415 -
+2024-12-10 16:17:37,255 - 127.0.0.1 - - [10/Dec/2024 16:17:37] "[31m[1mGET /get-data HTTP/1.1[0m" 415 -
+2024-12-10 16:18:09,291 - 127.0.0.1 - - [10/Dec/2024 16:18:09] "[31m[1mGET /get-data HTTP/1.1[0m" 415 -
+2024-12-10 16:18:46,013 -  * Detected change in '/home/rafad900/UCDavis/ECS235A/ECS235-Project/main.py', reloading
+2024-12-10 16:18:46,041 -  * Restarting with stat
+2024-12-10 16:18:46,309 -  * Debugger is active!
+2024-12-10 16:18:46,309 -  * Debugger PIN: 130-705-631
+2024-12-10 16:18:47,698 - 127.0.0.1 - - [10/Dec/2024 16:18:47] "[31m[1mGET /get-data HTTP/1.1[0m" 415 -
+2024-12-10 16:19:29,724 - 127.0.0.1 - - [10/Dec/2024 16:19:29] "GET / HTTP/1.1" 200 -
+2024-12-10 16:19:32,037 - 127.0.0.1 - - [10/Dec/2024 16:19:32] "GET /login HTTP/1.1" 200 -
+2024-12-10 16:19:35,641 - 127.0.0.1 - - [10/Dec/2024 16:19:35] "POST /login HTTP/1.1" 200 -
+2024-12-10 16:19:35,975 - 127.0.0.1 - - [10/Dec/2024 16:19:35] "[32mGET /monitor HTTP/1.1[0m" 302 -
+2024-12-10 16:19:36,238 - 127.0.0.1 - - [10/Dec/2024 16:19:36] "GET /permission_deny HTTP/1.1" 200 -
+2024-12-10 16:19:42,306 - 127.0.0.1 - - [10/Dec/2024 16:19:42] "[31m[1mGET /get-data HTTP/1.1[0m" 415 -
+2024-12-10 16:20:14,961 - 127.0.0.1 - - [10/Dec/2024 16:20:14] "[31m[1mGET /get-data HTTP/1.1[0m" 415 -
+2024-12-10 16:20:31,674 -  * Detected change in '/home/rafad900/UCDavis/ECS235A/ECS235-Project/main.py', reloading
+2024-12-10 16:20:32,170 -  * Restarting with stat
+2024-12-10 16:20:32,305 -  * Debugger is active!
+2024-12-10 16:20:32,305 -  * Debugger PIN: 130-705-631
+2024-12-10 16:20:37,240 - 127.0.0.1 - - [10/Dec/2024 16:20:37] "[31m[1mGET /getdata HTTP/1.1[0m" 415 -
+2024-12-10 16:20:43,346 -  * Detected change in '/home/rafad900/UCDavis/ECS235A/ECS235-Project/main.py', reloading
+2024-12-10 16:20:43,391 -  * Restarting with stat
+2024-12-10 16:20:43,564 -  * Debugger is active!
+2024-12-10 16:20:43,565 -  * Debugger PIN: 130-705-631
+2024-12-10 16:20:44,158 - 127.0.0.1 - - [10/Dec/2024 16:20:44] "[35m[1mGET /getdata HTTP/1.1[0m" 500 -
+2024-12-10 16:22:54,993 -  * Detected change in '/home/rafad900/UCDavis/ECS235A/ECS235-Project/main.py', reloading
+2024-12-10 16:22:55,341 -  * Restarting with stat
+2024-12-10 16:22:55,645 -  * Debugger is active!
+2024-12-10 16:22:55,646 -  * Debugger PIN: 130-705-631
+2024-12-10 16:22:59,386 - 127.0.0.1 - - [10/Dec/2024 16:22:59] "[35m[1mGET /getdata HTTP/1.1[0m" 500 -
+2024-12-10 16:23:04,179 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2024-12-10 16:23:04,179 - [33mPress CTRL+C to quit[0m
+2024-12-10 16:23:04,179 -  * Restarting with stat
+2024-12-10 16:23:04,315 -  * Debugger is active!
+2024-12-10 16:23:04,315 -  * Debugger PIN: 130-705-631
+2024-12-10 16:23:05,658 - 127.0.0.1 - - [10/Dec/2024 16:23:05] "[35m[1mGET /getdata HTTP/1.1[0m" 500 -
+2024-12-10 16:23:38,428 -  * Detected change in '/home/rafad900/UCDavis/ECS235A/ECS235-Project/main.py', reloading
+2024-12-10 16:23:38,453 -  * Restarting with stat
+2024-12-10 16:23:38,590 -  * Debugger is active!
+2024-12-10 16:23:38,591 -  * Debugger PIN: 130-705-631
+2024-12-10 16:23:57,651 -  * Detected change in '/home/rafad900/UCDavis/ECS235A/ECS235-Project/main.py', reloading
+2024-12-10 16:23:57,681 -  * Restarting with stat
+2024-12-10 16:23:57,820 -  * Debugger is active!
+2024-12-10 16:23:57,820 -  * Debugger PIN: 130-705-631
+2024-12-10 16:24:02,838 -  * Detected change in '/home/rafad900/UCDavis/ECS235A/ECS235-Project/main.py', reloading
+2024-12-10 16:24:02,865 -  * Restarting with stat
+2024-12-10 16:24:03,000 -  * Debugger is active!
+2024-12-10 16:24:03,001 -  * Debugger PIN: 130-705-631
+2024-12-10 16:24:05,423 - Time: 2024-12-10 16:24:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'a'}
+2024-12-10 16:24:05,440 - 127.0.0.1 - - [10/Dec/2024 16:24:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:24:05,442 - Time: 2024-12-10 16:24:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'ab'}
+2024-12-10 16:24:05,443 - 127.0.0.1 - - [10/Dec/2024 16:24:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:24:05,445 - Time: 2024-12-10 16:24:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abc'}
+2024-12-10 16:24:05,445 - 127.0.0.1 - - [10/Dec/2024 16:24:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:24:05,446 - Time: 2024-12-10 16:24:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcd'}
+2024-12-10 16:24:05,447 - 127.0.0.1 - - [10/Dec/2024 16:24:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:24:05,448 - Time: 2024-12-10 16:24:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcde'}
+2024-12-10 16:24:05,449 - 127.0.0.1 - - [10/Dec/2024 16:24:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:24:05,450 - Time: 2024-12-10 16:24:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdef'}
+2024-12-10 16:24:05,451 - 127.0.0.1 - - [10/Dec/2024 16:24:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:24:05,452 - Time: 2024-12-10 16:24:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefg'}
+2024-12-10 16:24:05,452 - 127.0.0.1 - - [10/Dec/2024 16:24:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:24:05,454 - Time: 2024-12-10 16:24:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefgh'}
+2024-12-10 16:24:05,454 - 127.0.0.1 - - [10/Dec/2024 16:24:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:24:05,456 - Time: 2024-12-10 16:24:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghi'}
+2024-12-10 16:24:05,456 - 127.0.0.1 - - [10/Dec/2024 16:24:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:24:05,458 - Time: 2024-12-10 16:24:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghij'}
+2024-12-10 16:24:05,458 - 127.0.0.1 - - [10/Dec/2024 16:24:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:24:05,460 - Time: 2024-12-10 16:24:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijk'}
+2024-12-10 16:24:05,461 - 127.0.0.1 - - [10/Dec/2024 16:24:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:24:05,462 - Time: 2024-12-10 16:24:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijkl'}
+2024-12-10 16:24:05,463 - 127.0.0.1 - - [10/Dec/2024 16:24:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:24:05,465 - Time: 2024-12-10 16:24:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklm'}
+2024-12-10 16:24:05,466 - 127.0.0.1 - - [10/Dec/2024 16:24:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:24:05,469 - Time: 2024-12-10 16:24:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmn'}
+2024-12-10 16:24:05,469 - 127.0.0.1 - - [10/Dec/2024 16:24:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:24:05,471 - Time: 2024-12-10 16:24:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmno'}
+2024-12-10 16:24:05,472 - 127.0.0.1 - - [10/Dec/2024 16:24:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:24:05,473 - Time: 2024-12-10 16:24:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnop'}
+2024-12-10 16:24:05,475 - 127.0.0.1 - - [10/Dec/2024 16:24:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:24:05,477 - Time: 2024-12-10 16:24:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopq'}
+2024-12-10 16:24:05,478 - 127.0.0.1 - - [10/Dec/2024 16:24:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:24:05,479 - Time: 2024-12-10 16:24:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqr'}
+2024-12-10 16:24:05,480 - 127.0.0.1 - - [10/Dec/2024 16:24:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:24:05,482 - Time: 2024-12-10 16:24:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrs'}
+2024-12-10 16:24:05,482 - 127.0.0.1 - - [10/Dec/2024 16:24:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:24:05,484 - Time: 2024-12-10 16:24:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrst'}
+2024-12-10 16:24:05,484 - 127.0.0.1 - - [10/Dec/2024 16:24:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:24:05,486 - Time: 2024-12-10 16:24:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstu'}
+2024-12-10 16:24:05,487 - 127.0.0.1 - - [10/Dec/2024 16:24:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:24:05,489 - Time: 2024-12-10 16:24:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuv'}
+2024-12-10 16:24:05,489 - 127.0.0.1 - - [10/Dec/2024 16:24:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:24:05,491 - Time: 2024-12-10 16:24:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvw'}
+2024-12-10 16:24:05,491 - 127.0.0.1 - - [10/Dec/2024 16:24:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:24:05,493 - Time: 2024-12-10 16:24:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwx'}
+2024-12-10 16:24:05,494 - 127.0.0.1 - - [10/Dec/2024 16:24:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:24:05,496 - Time: 2024-12-10 16:24:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwxy'}
+2024-12-10 16:24:05,496 - 127.0.0.1 - - [10/Dec/2024 16:24:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:24:05,498 - Time: 2024-12-10 16:24:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwxyz'}
+2024-12-10 16:24:05,499 - 127.0.0.1 - - [10/Dec/2024 16:24:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:24:09,208 - 127.0.0.1 - - [10/Dec/2024 16:24:09] "GET /getdata HTTP/1.1" 200 -
+2024-12-10 16:25:42,326 -  * Detected change in '/home/rafad900/UCDavis/ECS235A/ECS235-Project/main.py', reloading
+2024-12-10 16:25:42,582 -  * Restarting with stat
+2024-12-10 16:25:42,911 -  * Debugger is active!
+2024-12-10 16:25:42,912 -  * Debugger PIN: 130-705-631
+2024-12-10 16:26:44,108 -  * Detected change in '/home/rafad900/UCDavis/ECS235A/ECS235-Project/main.py', reloading
+2024-12-10 16:26:44,134 -  * Restarting with stat
+2024-12-10 16:26:44,263 -  * Debugger is active!
+2024-12-10 16:26:44,264 -  * Debugger PIN: 130-705-631
+2024-12-10 16:26:47,751 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2024-12-10 16:26:47,751 - [33mPress CTRL+C to quit[0m
+2024-12-10 16:26:47,751 -  * Restarting with stat
+2024-12-10 16:26:47,883 -  * Debugger is active!
+2024-12-10 16:26:47,884 -  * Debugger PIN: 130-705-631
+2024-12-10 16:26:51,600 - 127.0.0.1 - - [10/Dec/2024 16:26:51] "GET /getdata HTTP/1.1" 200 -
+2024-12-10 16:27:30,028 -  * Detected change in '/home/rafad900/UCDavis/ECS235A/ECS235-Project/main.py', reloading
+2024-12-10 16:27:30,157 -  * Restarting with stat
+2024-12-10 16:27:30,426 -  * Debugger is active!
+2024-12-10 16:27:30,426 -  * Debugger PIN: 130-705-631
+2024-12-10 16:27:37,453 -  * Detected change in '/home/rafad900/UCDavis/ECS235A/ECS235-Project/main.py', reloading
+2024-12-10 16:27:37,478 -  * Restarting with stat
+2024-12-10 16:27:37,611 -  * Debugger is active!
+2024-12-10 16:27:37,611 -  * Debugger PIN: 130-705-631
+2024-12-10 16:27:40,220 - 127.0.0.1 - - [10/Dec/2024 16:27:40] "GET /getdata HTTP/1.1" 200 -
+2024-12-10 16:28:03,691 -  * Detected change in '/home/rafad900/UCDavis/ECS235A/ECS235-Project/tests.py', reloading
+2024-12-10 16:28:03,764 -  * Restarting with stat
+2024-12-10 16:28:03,918 -  * Debugger is active!
+2024-12-10 16:28:03,918 -  * Debugger PIN: 130-705-631
+2024-12-10 16:28:05,243 - Time: 2024-12-10 16:28:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'a'}
+2024-12-10 16:28:05,260 - 127.0.0.1 - - [10/Dec/2024 16:28:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:28:05,262 - Time: 2024-12-10 16:28:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'ab'}
+2024-12-10 16:28:05,262 - 127.0.0.1 - - [10/Dec/2024 16:28:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:28:05,264 - Time: 2024-12-10 16:28:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abc'}
+2024-12-10 16:28:05,265 - 127.0.0.1 - - [10/Dec/2024 16:28:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:28:05,266 - Time: 2024-12-10 16:28:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcd'}
+2024-12-10 16:28:05,267 - 127.0.0.1 - - [10/Dec/2024 16:28:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:28:05,268 - Time: 2024-12-10 16:28:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcde'}
+2024-12-10 16:28:05,268 - 127.0.0.1 - - [10/Dec/2024 16:28:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:28:05,269 - Time: 2024-12-10 16:28:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdef'}
+2024-12-10 16:28:05,270 - 127.0.0.1 - - [10/Dec/2024 16:28:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:28:05,271 - Time: 2024-12-10 16:28:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefg'}
+2024-12-10 16:28:05,272 - 127.0.0.1 - - [10/Dec/2024 16:28:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:28:05,273 - Time: 2024-12-10 16:28:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefgh'}
+2024-12-10 16:28:05,273 - 127.0.0.1 - - [10/Dec/2024 16:28:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:28:05,275 - Time: 2024-12-10 16:28:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghi'}
+2024-12-10 16:28:05,275 - 127.0.0.1 - - [10/Dec/2024 16:28:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:28:05,277 - Time: 2024-12-10 16:28:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghij'}
+2024-12-10 16:28:05,278 - 127.0.0.1 - - [10/Dec/2024 16:28:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:28:05,280 - Time: 2024-12-10 16:28:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijk'}
+2024-12-10 16:28:05,281 - 127.0.0.1 - - [10/Dec/2024 16:28:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:28:05,282 - Time: 2024-12-10 16:28:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijkl'}
+2024-12-10 16:28:05,283 - 127.0.0.1 - - [10/Dec/2024 16:28:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:28:05,285 - Time: 2024-12-10 16:28:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklm'}
+2024-12-10 16:28:05,287 - 127.0.0.1 - - [10/Dec/2024 16:28:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:28:05,288 - Time: 2024-12-10 16:28:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmn'}
+2024-12-10 16:28:05,289 - 127.0.0.1 - - [10/Dec/2024 16:28:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:28:05,291 - Time: 2024-12-10 16:28:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmno'}
+2024-12-10 16:28:05,292 - 127.0.0.1 - - [10/Dec/2024 16:28:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:28:05,295 - Time: 2024-12-10 16:28:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnop'}
+2024-12-10 16:28:05,296 - 127.0.0.1 - - [10/Dec/2024 16:28:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:28:05,298 - Time: 2024-12-10 16:28:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopq'}
+2024-12-10 16:28:05,299 - 127.0.0.1 - - [10/Dec/2024 16:28:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:28:05,301 - Time: 2024-12-10 16:28:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqr'}
+2024-12-10 16:28:05,302 - 127.0.0.1 - - [10/Dec/2024 16:28:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:28:05,303 - Time: 2024-12-10 16:28:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrs'}
+2024-12-10 16:28:05,304 - 127.0.0.1 - - [10/Dec/2024 16:28:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:28:05,305 - Time: 2024-12-10 16:28:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrst'}
+2024-12-10 16:28:05,307 - 127.0.0.1 - - [10/Dec/2024 16:28:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:28:05,308 - Time: 2024-12-10 16:28:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstu'}
+2024-12-10 16:28:05,309 - 127.0.0.1 - - [10/Dec/2024 16:28:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:28:05,310 - Time: 2024-12-10 16:28:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuv'}
+2024-12-10 16:28:05,311 - 127.0.0.1 - - [10/Dec/2024 16:28:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:28:05,313 - Time: 2024-12-10 16:28:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvw'}
+2024-12-10 16:28:05,314 - 127.0.0.1 - - [10/Dec/2024 16:28:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:28:05,316 - Time: 2024-12-10 16:28:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwx'}
+2024-12-10 16:28:05,317 - 127.0.0.1 - - [10/Dec/2024 16:28:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:28:05,319 - Time: 2024-12-10 16:28:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwxy'}
+2024-12-10 16:28:05,320 - 127.0.0.1 - - [10/Dec/2024 16:28:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:28:05,321 - Time: 2024-12-10 16:28:05, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwxyz'}
+2024-12-10 16:28:05,322 - 127.0.0.1 - - [10/Dec/2024 16:28:05] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:23,177 -  * Detected change in '/home/rafad900/UCDavis/ECS235A/ECS235-Project/tests.py', reloading
+2024-12-10 16:29:23,384 -  * Restarting with stat
+2024-12-10 16:29:23,525 -  * Debugger is active!
+2024-12-10 16:29:23,525 -  * Debugger PIN: 130-705-631
+2024-12-10 16:29:24,335 - Time: 2024-12-10 16:29:24, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'a'}
+2024-12-10 16:29:24,354 - 127.0.0.1 - - [10/Dec/2024 16:29:24] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:24,356 - Time: 2024-12-10 16:29:24, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'ab'}
+2024-12-10 16:29:24,357 - 127.0.0.1 - - [10/Dec/2024 16:29:24] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:24,358 - Time: 2024-12-10 16:29:24, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abc'}
+2024-12-10 16:29:24,359 - 127.0.0.1 - - [10/Dec/2024 16:29:24] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:24,360 - Time: 2024-12-10 16:29:24, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcd'}
+2024-12-10 16:29:24,361 - 127.0.0.1 - - [10/Dec/2024 16:29:24] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:24,362 - Time: 2024-12-10 16:29:24, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcde'}
+2024-12-10 16:29:24,363 - 127.0.0.1 - - [10/Dec/2024 16:29:24] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:24,364 - Time: 2024-12-10 16:29:24, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdef'}
+2024-12-10 16:29:24,365 - 127.0.0.1 - - [10/Dec/2024 16:29:24] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:24,366 - Time: 2024-12-10 16:29:24, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefg'}
+2024-12-10 16:29:24,367 - 127.0.0.1 - - [10/Dec/2024 16:29:24] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:24,368 - Time: 2024-12-10 16:29:24, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefgh'}
+2024-12-10 16:29:24,369 - 127.0.0.1 - - [10/Dec/2024 16:29:24] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:24,371 - Time: 2024-12-10 16:29:24, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghi'}
+2024-12-10 16:29:24,372 - 127.0.0.1 - - [10/Dec/2024 16:29:24] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:24,373 - Time: 2024-12-10 16:29:24, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghij'}
+2024-12-10 16:29:24,374 - 127.0.0.1 - - [10/Dec/2024 16:29:24] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:24,376 - Time: 2024-12-10 16:29:24, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijk'}
+2024-12-10 16:29:24,377 - 127.0.0.1 - - [10/Dec/2024 16:29:24] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:24,378 - Time: 2024-12-10 16:29:24, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijkl'}
+2024-12-10 16:29:24,379 - 127.0.0.1 - - [10/Dec/2024 16:29:24] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:24,380 - Time: 2024-12-10 16:29:24, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklm'}
+2024-12-10 16:29:24,381 - 127.0.0.1 - - [10/Dec/2024 16:29:24] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:24,382 - Time: 2024-12-10 16:29:24, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmn'}
+2024-12-10 16:29:24,384 - 127.0.0.1 - - [10/Dec/2024 16:29:24] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:24,385 - Time: 2024-12-10 16:29:24, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmno'}
+2024-12-10 16:29:24,386 - 127.0.0.1 - - [10/Dec/2024 16:29:24] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:24,388 - Time: 2024-12-10 16:29:24, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnop'}
+2024-12-10 16:29:24,388 - 127.0.0.1 - - [10/Dec/2024 16:29:24] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:24,390 - Time: 2024-12-10 16:29:24, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopq'}
+2024-12-10 16:29:24,391 - 127.0.0.1 - - [10/Dec/2024 16:29:24] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:24,392 - Time: 2024-12-10 16:29:24, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqr'}
+2024-12-10 16:29:24,393 - 127.0.0.1 - - [10/Dec/2024 16:29:24] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:24,394 - Time: 2024-12-10 16:29:24, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrs'}
+2024-12-10 16:29:24,396 - 127.0.0.1 - - [10/Dec/2024 16:29:24] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:24,397 - Time: 2024-12-10 16:29:24, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrst'}
+2024-12-10 16:29:24,398 - 127.0.0.1 - - [10/Dec/2024 16:29:24] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:24,399 - Time: 2024-12-10 16:29:24, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstu'}
+2024-12-10 16:29:24,400 - 127.0.0.1 - - [10/Dec/2024 16:29:24] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:24,401 - Time: 2024-12-10 16:29:24, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuv'}
+2024-12-10 16:29:24,403 - 127.0.0.1 - - [10/Dec/2024 16:29:24] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:24,404 - Time: 2024-12-10 16:29:24, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvw'}
+2024-12-10 16:29:24,405 - 127.0.0.1 - - [10/Dec/2024 16:29:24] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:24,406 - Time: 2024-12-10 16:29:24, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwx'}
+2024-12-10 16:29:24,408 - 127.0.0.1 - - [10/Dec/2024 16:29:24] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:24,410 - Time: 2024-12-10 16:29:24, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwxy'}
+2024-12-10 16:29:24,411 - 127.0.0.1 - - [10/Dec/2024 16:29:24] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:24,413 - Time: 2024-12-10 16:29:24, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwxyz'}
+2024-12-10 16:29:24,414 - 127.0.0.1 - - [10/Dec/2024 16:29:24] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:32,560 -  * Detected change in '/home/rafad900/UCDavis/ECS235A/ECS235-Project/tests.py', reloading
+2024-12-10 16:29:32,881 -  * Restarting with stat
+2024-12-10 16:29:33,025 -  * Debugger is active!
+2024-12-10 16:29:33,025 -  * Debugger PIN: 130-705-631
+2024-12-10 16:29:37,572 - Time: 2024-12-10 16:29:37, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'a'}
+2024-12-10 16:29:37,593 - 127.0.0.1 - - [10/Dec/2024 16:29:37] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:37,595 - Time: 2024-12-10 16:29:37, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'ab'}
+2024-12-10 16:29:37,595 - 127.0.0.1 - - [10/Dec/2024 16:29:37] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:37,597 - Time: 2024-12-10 16:29:37, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abc'}
+2024-12-10 16:29:37,597 - 127.0.0.1 - - [10/Dec/2024 16:29:37] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:37,598 - Time: 2024-12-10 16:29:37, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcd'}
+2024-12-10 16:29:37,599 - 127.0.0.1 - - [10/Dec/2024 16:29:37] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:37,600 - Time: 2024-12-10 16:29:37, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcde'}
+2024-12-10 16:29:37,601 - 127.0.0.1 - - [10/Dec/2024 16:29:37] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:37,602 - Time: 2024-12-10 16:29:37, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdef'}
+2024-12-10 16:29:37,603 - 127.0.0.1 - - [10/Dec/2024 16:29:37] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:37,604 - Time: 2024-12-10 16:29:37, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefg'}
+2024-12-10 16:29:37,605 - 127.0.0.1 - - [10/Dec/2024 16:29:37] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:37,606 - Time: 2024-12-10 16:29:37, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefgh'}
+2024-12-10 16:29:37,606 - 127.0.0.1 - - [10/Dec/2024 16:29:37] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:37,607 - Time: 2024-12-10 16:29:37, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghi'}
+2024-12-10 16:29:37,608 - 127.0.0.1 - - [10/Dec/2024 16:29:37] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:37,609 - Time: 2024-12-10 16:29:37, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghij'}
+2024-12-10 16:29:37,609 - 127.0.0.1 - - [10/Dec/2024 16:29:37] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:37,610 - Time: 2024-12-10 16:29:37, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijk'}
+2024-12-10 16:29:37,611 - 127.0.0.1 - - [10/Dec/2024 16:29:37] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:37,612 - Time: 2024-12-10 16:29:37, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijkl'}
+2024-12-10 16:29:37,613 - 127.0.0.1 - - [10/Dec/2024 16:29:37] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:37,614 - Time: 2024-12-10 16:29:37, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklm'}
+2024-12-10 16:29:37,615 - 127.0.0.1 - - [10/Dec/2024 16:29:37] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:37,616 - Time: 2024-12-10 16:29:37, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmn'}
+2024-12-10 16:29:37,616 - 127.0.0.1 - - [10/Dec/2024 16:29:37] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:37,617 - Time: 2024-12-10 16:29:37, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmno'}
+2024-12-10 16:29:37,619 - 127.0.0.1 - - [10/Dec/2024 16:29:37] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:37,620 - Time: 2024-12-10 16:29:37, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnop'}
+2024-12-10 16:29:37,620 - 127.0.0.1 - - [10/Dec/2024 16:29:37] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:37,621 - Time: 2024-12-10 16:29:37, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopq'}
+2024-12-10 16:29:37,622 - 127.0.0.1 - - [10/Dec/2024 16:29:37] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:37,623 - Time: 2024-12-10 16:29:37, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqr'}
+2024-12-10 16:29:37,624 - 127.0.0.1 - - [10/Dec/2024 16:29:37] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:37,625 - Time: 2024-12-10 16:29:37, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrs'}
+2024-12-10 16:29:37,625 - 127.0.0.1 - - [10/Dec/2024 16:29:37] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:37,626 - Time: 2024-12-10 16:29:37, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrst'}
+2024-12-10 16:29:37,627 - 127.0.0.1 - - [10/Dec/2024 16:29:37] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:37,628 - Time: 2024-12-10 16:29:37, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstu'}
+2024-12-10 16:29:37,629 - 127.0.0.1 - - [10/Dec/2024 16:29:37] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:37,631 - Time: 2024-12-10 16:29:37, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuv'}
+2024-12-10 16:29:37,632 - 127.0.0.1 - - [10/Dec/2024 16:29:37] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:37,633 - Time: 2024-12-10 16:29:37, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvw'}
+2024-12-10 16:29:37,635 - 127.0.0.1 - - [10/Dec/2024 16:29:37] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:37,637 - Time: 2024-12-10 16:29:37, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwx'}
+2024-12-10 16:29:37,638 - 127.0.0.1 - - [10/Dec/2024 16:29:37] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:37,639 - Time: 2024-12-10 16:29:37, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwxy'}
+2024-12-10 16:29:37,640 - 127.0.0.1 - - [10/Dec/2024 16:29:37] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
+2024-12-10 16:29:37,642 - Time: 2024-12-10 16:29:37, Endpoint: /test, Method: POST, Status: Success, Data: {'word': 'abcdefghijklmnopqrstuvwxyz'}
+2024-12-10 16:29:37,642 - 127.0.0.1 - - [10/Dec/2024 16:29:37] "[35m[1mPOST /test HTTP/1.1[0m" 201 -
