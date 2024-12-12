@@ -95,7 +95,7 @@ def signup():
         if mongo.db.users.find_one({"username": username}):
             return jsonify({"error": "Username already exists"}), 409
 
-        hashed_password = generate_password_hash(password)
+        hashed_password = generate_password_hash(password, method='pbkdf2:sha256:600000', salt_length=16)
 
         mongo.db.users.insert_one({
             "username": username,
@@ -188,9 +188,11 @@ def testrsa():
 def get_data():
     # record_traffic(request)
     try:
-        
+        start = time.perf_counter()
         data = mongo.db.classdb.find()
         data = json.loads(dumps(data))
+        duration = time.perf_counter() - start
+        print(f"Database read duration: {duration:.6f} seconds")
         return jsonify(data), 200
     except Exception as e:
         print(f"Error: {e}")
