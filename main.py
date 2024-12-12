@@ -124,26 +124,28 @@ def test():
         data = request.json
         padded_plaintext = pad(data['word'].encode('utf-8'), 16)  # Pad to match block size
         ciphertext = cipher.encrypt(padded_plaintext)
-        # document = {"ciphertext": ciphertext}
-        # mongo.db.classdb.insert_one(document)
-        duration = time.perf_counter() - start
-        print(f"Encryption duration: {duration:.6f} seconds")
-
-        start_dec = time.perf_counter()
-        decipher = AES.new(key, AES.MODE_ECB)
-        deciphertext = unpad(decipher.decrypt(ciphertext), 16)
-        duration_dec = time.perf_counter() - start_dec
-        print(f"Decrypted text: {deciphertext.decode('utf-8')}")
-        print(f"Decryption took {duration_dec:.6f} seconds")
-
-        document = {
-            "ciphertext": ciphertext,
-            "deciphertext": deciphertext.decode('utf-8'),
-            "encryption_duration": f"{duration:.6f} seconds",
-            "decryption_duration": f"{duration_dec:.6f} seconds",
-            }
+        document = {"ciphertext": ciphertext}
         mongo.db.classdb.insert_one(document)
+        duration = time.perf_counter() - start
+        print(f"{duration:.6f}", end=", ")
 
+        # start_dec = time.perf_counter()
+        # decipher = AES.new(key, AES.MODE_ECB)
+        # deciphertext = unpad(decipher.decrypt(ciphertext), 16)
+        # duration_dec = time.perf_counter() - start_dec
+        # print(f"Decrypted text: {deciphertext.decode('utf-8')}")
+        # print(f"Decryption took {duration_dec:.6f} seconds")
+
+        # document = {
+        #     "ciphertext": ciphertext,
+        #     "deciphertext": deciphertext.decode('utf-8'),
+        #     "encryption_duration": f"{duration:.6f} seconds",
+        #     "decryption_duration": f"{duration_dec:.6f} seconds",
+        #     }
+        # mongo.db.classdb.insert_one(data )
+        # duration_dec = time.perf_counter() - start
+        # print(f"{duration_dec:.6f}", end=", ")
+        
         return jsonify({"msg": "Document added successfully!"}), 201
     except Exception as e:
         print(f"Error: {e}")
@@ -186,6 +188,7 @@ def testrsa():
 def get_data():
     # record_traffic(request)
     try:
+        
         data = mongo.db.classdb.find()
         data = json.loads(dumps(data))
         return jsonify(data), 200
